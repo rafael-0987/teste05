@@ -1,0 +1,11 @@
+cores: https://gtaforevermods.forumeiros.com/t27-cores-pawno-samp
+
+Todas as funções e callbacks: https://open.mp/pt-BR/docs
+
+Id veiculos: https://wiki.multitheftauto.com/wiki/Vehicle_IDs
+
+id das skin: https://wiki.multitheftauto.com/wiki/All_Skins_Page
+
+id das armas: https://wiki.multitheftauto.com/wiki/Weapons
+
+id dos pickups: https://open.mp/pt-BR/docs/scripting/resources/pickupids
