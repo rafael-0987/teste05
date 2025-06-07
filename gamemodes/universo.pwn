@@ -10,14 +10,11 @@
 //VARIAVEIS
 new logado[MAX_PLAYERS];
 
-new arma_equipada;
-
 //======= ARMAS CONF. ======
 new pecas_arma [MAX_PLAYERS];
 //==== index 0 deseart, 1 ak, 2 sub-metralhadora ======
-new armas [MAX_PLAYERS][3];
-
-
+new save_armas [MAX_PLAYERS][13];
+new save_muni [MAX_PLAYERS][13];
 
 enum pInfo{
 	Dinheiro
@@ -105,12 +102,16 @@ main()
 public OnGameModeInit()
 {
 	DisableInteriorEnterExits();
+	//================EXCLUIR DEPOIS=====================
 	CreateVehicle(411, 1693.0347,-2253.8489,13.3773,79.3827, 2, 2, 0);
 	SetGameModeText("Roleplay");
 	UsePlayerPedAnims();
 
-
 	create_npc();
+
+
+	//========LOGO DO SERVER========
+
 
 	return 1;
 }
@@ -150,7 +151,16 @@ public OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	arma_equipada  = GetPlayerWeapon(playerid);
+
+	//=======save muni======
+	for (new i = 0; i < 13; i++)
+	{
+		new weapon, ammo;
+		GetPlayerWeaponData(playerid, i, weapon, ammo);
+		save_armas[playerid][i] = weapon;
+		save_muni[playerid][i] = ammo;
+	}
+	
 
 	if(logado[playerid] == 1)
 	{
@@ -270,7 +280,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			        SetPlayerInterior(playerid, 0);
 			        GivePlayerMoney(playerid, Pdados[playerid][Dinheiro]);
 
-					load_weapon(playerid);
+					
 
 			    }
 			    else
@@ -300,7 +310,7 @@ forward criar_deseart (playerid);
 public criar_deseart (playerid){
 	GivePlayerWeapon(playerid, 24, 10);
 	SendClientMessage(playerid, COR_AZUL, "Sua Arma Foi Criada!!!");
-	armas[playerid][0] = 1;
+	
 	return 1;
 }
 
@@ -308,7 +318,7 @@ forward criar_ak (playerid);
 public criar_ak (playerid){
 	GivePlayerWeapon(playerid, 30, 50);
 	SendClientMessage(playerid, COR_AZUL, "Sua Arma Foi Criada!!!");
-	armas[playerid][1] = 1;
+	
 	return 1;
 }
 
@@ -316,27 +326,23 @@ forward criar_sub (playerid);
 public criar_sub (playerid){
 	GivePlayerWeapon(playerid, 29, 25);
 	SendClientMessage(playerid, COR_AZUL, "Sua Arma Foi Criada!!!");
-	armas[playerid][2] = 1;
+	
 	return 1;
 }
 
-forward load_weapon(playerid);
-public load_weapon(playerid)
+forward load_arma_muni(playerid);
+public load_arma_muni(playerid)
 {
-	SendClientMessage(playerid, -1 , "fora do if");
-	if (armas[playerid][0] == 1 ) {
-		GivePlayerWeapon(playerid, 24, 10);
-		SendClientMessage(playerid, -1, "load weapon carregada");
+	for (new i = 0; i < 13; i++)
+	{
+		if (save_armas[playerid][i] != 0)
+		{
+			SendClientMessage(playerid, COR_AZUL, save_armas[playerid][i]);
+		}
 	}
-	if (armas[playerid][1] == 1 ) {
-		GivePlayerWeapon(playerid, 30, 50);
-	}
-	if (armas[playerid][2] == 1 ) {
-		GivePlayerWeapon(playerid, 29, 25);
-	}
+	SendClientMessage(playerid, COR_AZUL, save_armas[playerid]);
 	return 1;
 }
-
 
 stock Nome(playerid)
 {
@@ -364,9 +370,17 @@ stock CarregarDados(playerid)
 	{
         Pdados[playerid][Dinheiro] = DOF2_GetInt(Arquivo, "Dinheiro");
 		pecas_arma[playerid] = DOF2_GetInt(Arquivo,"Pecas_Armas");
-		armas[playerid][0] = DOF2_GetInt(Arquivo, "Deseart" );
-		armas[playerid][1] = DOF2_GetInt(Arquivo, "Ak");
-		armas[playerid][2] = DOF2_GetInt(Arquivo, "Sub");
+
+		//=======carregar as minução e as armas===========
+		new str[60];
+		for (new i = 0; i< 13; i++)
+		{
+			format(str, sizeof(str), "arma%d", i);
+			save_armas[playerid][i] = DOF2_GetInt(Arquivo, str);
+
+			format(str, sizeof(str), "municao%d", i);
+			save_muni[playerid][i] = DOF2_GetInt(Arquivo, str);
+		}
     } 
 	return 1;
 }
@@ -376,12 +390,21 @@ stock SalvarDados(playerid)
     GetPlayerName(playerid, sendername, sizeof(sendername));
     format(Arquivo, sizeof(Arquivo), "Contas/%s.ini", sendername);
     Pdados[playerid][Dinheiro] = GetPlayerMoney(playerid);
-    DOF2_SetInt(Arquivo, "Dinheiro", Pdados[playerid][Dinheiro]);
-	DOF2_SetInt(Arquivo,"Pecas_Armas",pecas_arma[playerid]);
-	DOF2_SetInt(Arquivo, "Deseart", armas[playerid][0]);
-	DOF2_SetInt(Arquivo, "Ak", armas[playerid][1]);
-	DOF2_SetInt(Arquivo, "Sub", armas[playerid][2]);
-	DOF2_SetInt(Arquivo, "armas_teste", arma_equipada);
+
+
+	//=======sistema para salvar as armas e munição e peças de arma=======
+	new str[100];
+	DOF2_SetInt(Arquivo, "Pecas_Armas", pecas_arma[playerid]);
+	for (new i = 0; i<13; i++ )
+	{
+		format(str, sizeof(str), "arma%d", i);
+		DOF2_SetInt(Arquivo, str, save_armas[playerid][i]);
+
+		format(str, sizeof(str), "municao%d", save_muni[playerid][i]);
+		DOF2_SetInt(Arquivo, str, save_muni[playerid][i]);
+	}
+	
+	
     DOF2_SaveFile();
 	return 1;
 }
@@ -462,22 +485,22 @@ stock LoadCasa()
 
 CMD:mercadonegro (playerid)
 {
-	if (IsPlayerInRangeOfPoint(playerid, 3.0, 2330.9500,44.5836,32.9884))
-	{
+	//if (IsPlayerInRangeOfPoint(playerid, 3.0, 2330.9500,44.5836,32.9884))
+	//{
 		ShowPlayerDialog(playerid, 101, DIALOG_STYLE_LIST, "Mercado Negro pecas_arma[playerid]" , "Pecas de armas \t [5 pecas] [1000]", "Comprar","Sair");
-		return 1;
-	}
+		//return 1;
+	//}
 	SendClientMessage(playerid, COR_BEJE, "VOCE NAO ESTA NO LOCAL CERTO, PROCURA EM PALOMINO CREEK, EM CIMA DAS COISAS!!!");
 	return 1;
 }
 
 CMD:menuarmas (playerid)
 {
-	if (IsPlayerInRangeOfPoint(playerid, 3.0, -2789.6240,-52.5912,10.0625))
-	{
+	//if (IsPlayerInRangeOfPoint(playerid, 3.0, -2789.6240,-52.5912,10.0625))
+	//{
 		ShowPlayerDialog(playerid, 100, DIALOG_STYLE_LIST, "Menu Armas", "Deseart Agle\t\t [20 pecas]\n Ak-47\t\t\t [50 pecas]\n Sub-Metralhadora\t\t [35 pecas]", "Montar", "sair");
-        return 1;
-	}
+        //return 1;
+	//}
     SendClientMessage(playerid, COR_BEJE, "VOCE NAO ESTA NO LOCAL CERTO, PROCURA EM SF PERTO DA PRAIA!!!");
 	return 1;
 }
