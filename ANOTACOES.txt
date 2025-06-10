@@ -9,3 +9,5 @@ id das skin: https://wiki.multitheftauto.com/wiki/All_Skins_Page
 id das armas: https://wiki.multitheftauto.com/wiki/Weapons
 
 id dos pickups: https://open.mp/pt-BR/docs/scripting/resources/pickupids
+
+interior: https://pawnokit.ru/en/interiors_id

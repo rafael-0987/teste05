@@ -4300,3 +4300,4676 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [15:20:25] ----------------------------------
 
 [15:20:25] Number of vehicle models: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:26:29] filterscripts = ""  (string)
+[15:26:29] 
+[15:26:29] Server Plugins
+[15:26:29] --------------
+[15:26:29]  Loading plugin: sscanf
+[15:26:29] 
+[15:26:29]  ===============================
+[15:26:29] 
+[15:26:29]       sscanf plugin loaded.     
+[15:26:29] 
+[15:26:29]          Version: 2.13.8
+[15:26:29] 
+[15:26:29]    (c) 2022 Alex "Y_Less" Cole  
+[15:26:29] 
+[15:26:29]  ===============================
+[15:26:29] 
+[15:26:29]   Loaded.
+[15:26:29]  Loading plugin: streamer
+[15:26:29] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:26:29]   Loaded.
+[15:26:29]  Loaded 2 plugins.
+
+[15:26:29] 
+[15:26:29] Filterscripts
+[15:26:29] ---------------
+[15:26:29]   Loaded 0 filterscripts.
+
+[15:26:29] 
+----------------------------------
+[15:26:29] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:26:29] ----------------------------------
+
+[15:26:29] Number of vehicle models: 1
+[15:27:47] [connection] incoming connection: 127.0.0.1:50781 id: 0
+[15:27:48] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:31:58] filterscripts = ""  (string)
+[15:31:58] 
+[15:31:58] Server Plugins
+[15:31:58] --------------
+[15:31:58]  Loading plugin: sscanf
+[15:31:58] 
+[15:31:58]  ===============================
+[15:31:58] 
+[15:31:58]       sscanf plugin loaded.     
+[15:31:58] 
+[15:31:58]          Version: 2.13.8
+[15:31:58] 
+[15:31:58]    (c) 2022 Alex "Y_Less" Cole  
+[15:31:58] 
+[15:31:58]  ===============================
+[15:31:58] 
+[15:31:58]   Loaded.
+[15:31:58]  Loading plugin: streamer
+[15:31:58] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:31:58]   Loaded.
+[15:31:58]  Loaded 2 plugins.
+
+[15:31:59] 
+[15:31:59] Filterscripts
+[15:31:59] ---------------
+[15:31:59]   Loaded 0 filterscripts.
+
+[15:31:59] 
+----------------------------------
+[15:31:59] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:31:59] ----------------------------------
+
+[15:31:59] Number of vehicle models: 1
+[15:32:53] [connection] incoming connection: 127.0.0.1:62656 id: 0
+[15:32:54] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:34:29] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:42:39] filterscripts = ""  (string)
+[15:42:39] 
+[15:42:39] Server Plugins
+[15:42:39] --------------
+[15:42:39]  Loading plugin: sscanf
+[15:42:39] 
+[15:42:39]  ===============================
+[15:42:39] 
+[15:42:39]       sscanf plugin loaded.     
+[15:42:39] 
+[15:42:39]          Version: 2.13.8
+[15:42:39] 
+[15:42:39]    (c) 2022 Alex "Y_Less" Cole  
+[15:42:39] 
+[15:42:39]  ===============================
+[15:42:39] 
+[15:42:39]   Loaded.
+[15:42:39]  Loading plugin: streamer
+[15:42:39] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:42:39]   Loaded.
+[15:42:39]  Loaded 2 plugins.
+
+[15:42:39] 
+[15:42:39] Filterscripts
+[15:42:39] ---------------
+[15:42:39]   Loaded 0 filterscripts.
+
+[15:42:39] 
+----------------------------------
+[15:42:39] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:42:39] ----------------------------------
+
+[15:42:39] Number of vehicle models: 1
+[15:43:20] [connection] incoming connection: 127.0.0.1:50987 id: 0
+[15:43:21] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:44:09] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:45:02] filterscripts = ""  (string)
+[15:45:02] 
+[15:45:02] Server Plugins
+[15:45:02] --------------
+[15:45:02]  Loading plugin: sscanf
+[15:45:02] 
+[15:45:02]  ===============================
+[15:45:02] 
+[15:45:02]       sscanf plugin loaded.     
+[15:45:02] 
+[15:45:02]          Version: 2.13.8
+[15:45:02] 
+[15:45:02]    (c) 2022 Alex "Y_Less" Cole  
+[15:45:02] 
+[15:45:02]  ===============================
+[15:45:02] 
+[15:45:02]   Loaded.
+[15:45:02]  Loading plugin: streamer
+[15:45:02] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:45:02]   Loaded.
+[15:45:02]  Loaded 2 plugins.
+
+[15:45:02] 
+[15:45:02] Filterscripts
+[15:45:02] ---------------
+[15:45:02]   Loaded 0 filterscripts.
+
+[15:45:02] 
+----------------------------------
+[15:45:02] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:45:02] ----------------------------------
+
+[15:45:02] Number of vehicle models: 1
+[15:45:35] [connection] incoming connection: 127.0.0.1:63830 id: 0
+[15:45:35] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:48:25] filterscripts = ""  (string)
+[15:48:25] 
+[15:48:25] Server Plugins
+[15:48:25] --------------
+[15:48:25]  Loading plugin: sscanf
+[15:48:25] 
+[15:48:25]  ===============================
+[15:48:25] 
+[15:48:25]       sscanf plugin loaded.     
+[15:48:25] 
+[15:48:25]          Version: 2.13.8
+[15:48:25] 
+[15:48:25]    (c) 2022 Alex "Y_Less" Cole  
+[15:48:25] 
+[15:48:25]  ===============================
+[15:48:25] 
+[15:48:25]   Loaded.
+[15:48:25]  Loading plugin: streamer
+[15:48:25] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:48:25]   Loaded.
+[15:48:25]  Loaded 2 plugins.
+
+[15:48:25] 
+[15:48:25] Filterscripts
+[15:48:25] ---------------
+[15:48:25]   Loaded 0 filterscripts.
+
+[15:48:25] 
+----------------------------------
+[15:48:25] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:48:25] ----------------------------------
+
+[15:48:25] Number of vehicle models: 1
+[15:48:29] [connection] incoming connection: 127.0.0.1:62963 id: 0
+[15:48:30] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:49:58] [part] Poli_Rafax has left the server (0:0)
+[15:50:45] [connection] incoming connection: 127.0.0.1:56004 id: 0
+[15:50:46] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:56:30] filterscripts = ""  (string)
+[15:56:30] 
+[15:56:30] Server Plugins
+[15:56:30] --------------
+[15:56:30]  Loading plugin: sscanf
+[15:56:30] 
+[15:56:30]  ===============================
+[15:56:30] 
+[15:56:30]       sscanf plugin loaded.     
+[15:56:30] 
+[15:56:30]          Version: 2.13.8
+[15:56:30] 
+[15:56:30]    (c) 2022 Alex "Y_Less" Cole  
+[15:56:30] 
+[15:56:30]  ===============================
+[15:56:30] 
+[15:56:30]   Loaded.
+[15:56:30]  Loading plugin: streamer
+[15:56:30] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:56:30]   Loaded.
+[15:56:30]  Loaded 2 plugins.
+
+[15:56:30] 
+[15:56:30] Filterscripts
+[15:56:30] ---------------
+[15:56:30]   Loaded 0 filterscripts.
+
+[15:56:30] 
+----------------------------------
+[15:56:30] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:56:30] ----------------------------------
+
+[15:56:30] Number of vehicle models: 1
+[15:56:35] [connection] incoming connection: 127.0.0.1:59850 id: 0
+[15:56:35] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:58:01] [part] Poli_Rafax has left the server (0:0)
+[15:59:35] [warning] dropping a split packet from client
+[15:59:36] [connection] incoming connection: 127.0.0.1:49255 id: 0
+[15:59:36] [warning] dropping a split packet from client
+[15:59:37] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [connection] incoming connection: 127.0.0.1:49256 id: 1
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [warning] dropping a split packet from client
+[15:59:40] [connection] incoming connection: 127.0.0.1:49257 id: 2
+[15:59:40] [connection] incoming connection: 127.0.0.1:49258 id: 3
+[15:59:43] [connection] incoming connection: 127.0.0.1:53918 id: 0
+[15:59:44] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:11:06] filterscripts = ""  (string)
+[15:11:06] 
+[15:11:06] Server Plugins
+[15:11:06] --------------
+[15:11:06]  Loading plugin: sscanf
+[15:11:06] 
+[15:11:06]  ===============================
+[15:11:06] 
+[15:11:06]       sscanf plugin loaded.     
+[15:11:06] 
+[15:11:06]          Version: 2.13.8
+[15:11:06] 
+[15:11:06]    (c) 2022 Alex "Y_Less" Cole  
+[15:11:06] 
+[15:11:06]  ===============================
+[15:11:06] 
+[15:11:06]   Loaded.
+[15:11:06]  Loading plugin: streamer
+[15:11:06] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:11:06]   Loaded.
+[15:11:06]  Loaded 2 plugins.
+
+[15:11:07] 
+[15:11:07] Filterscripts
+[15:11:07] ---------------
+[15:11:07]   Loaded 0 filterscripts.
+
+[15:11:07] 
+----------------------------------
+[15:11:07] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:11:07] ----------------------------------
+
+[15:11:07] Number of vehicle models: 1
+[15:12:43] [connection] incoming connection: 127.0.0.1:56971 id: 0
+[15:12:44] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:13:41] [part] Poli_Rafax has left the server (0:0)
+[15:14:00] [connection] incoming connection: 127.0.0.1:58451 id: 0
+[15:14:01] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:17:08] [part] Poli_Rafax has left the server (0:0)
+[15:17:34] [connection] incoming connection: 127.0.0.1:58900 id: 0
+[15:17:35] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:18:15] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:24:32] filterscripts = ""  (string)
+[15:24:32] 
+[15:24:32] Server Plugins
+[15:24:32] --------------
+[15:24:32]  Loading plugin: sscanf
+[15:24:32] 
+[15:24:32]  ===============================
+[15:24:32] 
+[15:24:32]       sscanf plugin loaded.     
+[15:24:32] 
+[15:24:32]          Version: 2.13.8
+[15:24:32] 
+[15:24:32]    (c) 2022 Alex "Y_Less" Cole  
+[15:24:32] 
+[15:24:32]  ===============================
+[15:24:32] 
+[15:24:32]   Loaded.
+[15:24:32]  Loading plugin: streamer
+[15:24:32] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:24:32]   Loaded.
+[15:24:32]  Loaded 2 plugins.
+
+[15:24:32] 
+[15:24:32] Filterscripts
+[15:24:32] ---------------
+[15:24:32]   Loaded 0 filterscripts.
+
+[15:24:32] 
+----------------------------------
+[15:24:32] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:24:32] ----------------------------------
+
+[15:24:32] Number of vehicle models: 1
+[15:25:07] [connection] incoming connection: 127.0.0.1:56532 id: 0
+[15:25:08] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:26:40] [part] Poli_Rafax has left the server (0:0)
+[15:26:55] [connection] incoming connection: 127.0.0.1:54748 id: 0
+[15:26:55] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:27:59] filterscripts = ""  (string)
+[15:27:59] 
+[15:27:59] Server Plugins
+[15:27:59] --------------
+[15:27:59]  Loading plugin: sscanf
+[15:27:59] 
+[15:27:59]  ===============================
+[15:27:59] 
+[15:27:59]       sscanf plugin loaded.     
+[15:27:59] 
+[15:27:59]          Version: 2.13.8
+[15:27:59] 
+[15:27:59]    (c) 2022 Alex "Y_Less" Cole  
+[15:27:59] 
+[15:27:59]  ===============================
+[15:27:59] 
+[15:27:59]   Loaded.
+[15:27:59]  Loading plugin: streamer
+[15:27:59] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:27:59]   Loaded.
+[15:27:59]  Loaded 2 plugins.
+
+[15:27:59] 
+[15:27:59] Filterscripts
+[15:27:59] ---------------
+[15:27:59]   Loaded 0 filterscripts.
+
+[15:27:59] 
+----------------------------------
+[15:27:59] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:27:59] ----------------------------------
+
+[15:27:59] Number of vehicle models: 1
+[15:28:30] [connection] incoming connection: 127.0.0.1:59465 id: 0
+[15:28:30] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:31:05] filterscripts = ""  (string)
+[15:31:05] 
+[15:31:05] Server Plugins
+[15:31:05] --------------
+[15:31:05]  Loading plugin: sscanf
+[15:31:05] 
+[15:31:05]  ===============================
+[15:31:05] 
+[15:31:05]       sscanf plugin loaded.     
+[15:31:05] 
+[15:31:05]          Version: 2.13.8
+[15:31:05] 
+[15:31:05]    (c) 2022 Alex "Y_Less" Cole  
+[15:31:05] 
+[15:31:05]  ===============================
+[15:31:05] 
+[15:31:05]   Loaded.
+[15:31:05]  Loading plugin: streamer
+[15:31:05] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:31:05]   Loaded.
+[15:31:05]  Loaded 2 plugins.
+
+[15:31:05] 
+[15:31:05] Filterscripts
+[15:31:05] ---------------
+[15:31:05]   Loaded 0 filterscripts.
+
+[15:31:05] 
+----------------------------------
+[15:31:05] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:31:05] ----------------------------------
+
+[15:31:05] Number of vehicle models: 1
+[15:31:38] [connection] incoming connection: 127.0.0.1:63076 id: 0
+[15:31:38] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:33:09] [part] Poli_Rafax has left the server (0:0)
+[15:33:18] [connection] incoming connection: 127.0.0.1:51916 id: 0
+[15:33:19] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:35:39] [part] Poli_Rafax has left the server (0:0)
+[15:35:46] [connection] incoming connection: 127.0.0.1:58860 id: 0
+[15:35:46] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:43:03] filterscripts = ""  (string)
+[15:43:03] 
+[15:43:03] Server Plugins
+[15:43:03] --------------
+[15:43:03]  Loading plugin: sscanf
+[15:43:03] 
+[15:43:03]  ===============================
+[15:43:03] 
+[15:43:03]       sscanf plugin loaded.     
+[15:43:03] 
+[15:43:03]          Version: 2.13.8
+[15:43:03] 
+[15:43:03]    (c) 2022 Alex "Y_Less" Cole  
+[15:43:03] 
+[15:43:03]  ===============================
+[15:43:03] 
+[15:43:03]   Loaded.
+[15:43:03]  Loading plugin: streamer
+[15:43:03] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:43:03]   Loaded.
+[15:43:03]  Loaded 2 plugins.
+
+[15:43:03] 
+[15:43:03] Filterscripts
+[15:43:03] ---------------
+[15:43:03]   Loaded 0 filterscripts.
+
+[15:43:03] 
+----------------------------------
+[15:43:03] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:43:03] ----------------------------------
+
+[15:43:03] Number of vehicle models: 1
+[15:44:19] [connection] incoming connection: 127.0.0.1:54971 id: 0
+[15:44:19] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:46:17] [connection] incoming connection: 127.0.0.1:52622 id: 1
+[15:46:17] [part] Poli_Rafax has left the server (0:0)
+[15:46:19] [connection] incoming connection: 127.0.0.1:52623 id: 0
+[15:46:19] [connection] incoming connection: 127.0.0.1:52624 id: 1
+[15:47:58] [connection] incoming connection: 127.0.0.1:56903 id: 0
+[15:47:58] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[15:53:29] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:58:17] filterscripts = ""  (string)
+[15:58:17] 
+[15:58:17] Server Plugins
+[15:58:17] --------------
+[15:58:17]  Loading plugin: sscanf
+[15:58:17] 
+[15:58:17]  ===============================
+[15:58:17] 
+[15:58:17]       sscanf plugin loaded.     
+[15:58:17] 
+[15:58:17]          Version: 2.13.8
+[15:58:17] 
+[15:58:17]    (c) 2022 Alex "Y_Less" Cole  
+[15:58:17] 
+[15:58:17]  ===============================
+[15:58:17] 
+[15:58:17]   Loaded.
+[15:58:17]  Loading plugin: streamer
+[15:58:17] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[15:58:17]   Loaded.
+[15:58:17]  Loaded 2 plugins.
+
+[15:58:17] 
+[15:58:17] Filterscripts
+[15:58:17] ---------------
+[15:58:17]   Loaded 0 filterscripts.
+
+[15:58:17] 
+----------------------------------
+[15:58:17] TELA DE LOGIN CARREGADA COM SUCESSO!
+[15:58:17] ----------------------------------
+
+[15:58:17] Number of vehicle models: 1
+[15:58:51] [connection] incoming connection: 127.0.0.1:51600 id: 0
+[15:58:51] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:01:31] filterscripts = ""  (string)
+[16:01:31] 
+[16:01:31] Server Plugins
+[16:01:31] --------------
+[16:01:31]  Loading plugin: sscanf
+[16:01:31] 
+[16:01:31]  ===============================
+[16:01:31] 
+[16:01:31]       sscanf plugin loaded.     
+[16:01:31] 
+[16:01:31]          Version: 2.13.8
+[16:01:31] 
+[16:01:31]    (c) 2022 Alex "Y_Less" Cole  
+[16:01:31] 
+[16:01:31]  ===============================
+[16:01:31] 
+[16:01:31]   Loaded.
+[16:01:31]  Loading plugin: streamer
+[16:01:31] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:01:31]   Loaded.
+[16:01:31]  Loaded 2 plugins.
+
+[16:01:31] 
+[16:01:31] Filterscripts
+[16:01:31] ---------------
+[16:01:31]   Loaded 0 filterscripts.
+
+[16:01:31] 
+----------------------------------
+[16:01:31] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:01:31] ----------------------------------
+
+[16:01:31] Number of vehicle models: 1
+[16:02:12] [connection] incoming connection: 127.0.0.1:57035 id: 0
+[16:02:12] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[16:02:53] [connection] incoming connection: 127.0.0.1:49658 id: 1
+[16:02:55] [part] Poli_Rafax has left the server (0:0)
+[16:03:38] [connection] incoming connection: 127.0.0.1:49941 id: 0
+[16:03:39] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:11:07] filterscripts = ""  (string)
+[16:11:07] 
+[16:11:07] Server Plugins
+[16:11:07] --------------
+[16:11:07]  Loading plugin: sscanf
+[16:11:07] 
+[16:11:07]  ===============================
+[16:11:07] 
+[16:11:07]       sscanf plugin loaded.     
+[16:11:07] 
+[16:11:07]          Version: 2.13.8
+[16:11:07] 
+[16:11:07]    (c) 2022 Alex "Y_Less" Cole  
+[16:11:07] 
+[16:11:07]  ===============================
+[16:11:07] 
+[16:11:07]   Loaded.
+[16:11:07]  Loading plugin: streamer
+[16:11:07] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:11:07]   Loaded.
+[16:11:07]  Loaded 2 plugins.
+
+[16:11:07] 
+[16:11:07] Filterscripts
+[16:11:07] ---------------
+[16:11:07]   Loaded 0 filterscripts.
+
+[16:11:07] 
+----------------------------------
+[16:11:07] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:11:07] ----------------------------------
+
+[16:11:07] Number of vehicle models: 1
+[16:11:40] [connection] incoming connection: 127.0.0.1:64585 id: 0
+[16:11:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:16:41] filterscripts = ""  (string)
+[16:16:41] 
+[16:16:41] Server Plugins
+[16:16:41] --------------
+[16:16:41]  Loading plugin: sscanf
+[16:16:41] 
+[16:16:41]  ===============================
+[16:16:41] 
+[16:16:41]       sscanf plugin loaded.     
+[16:16:41] 
+[16:16:41]          Version: 2.13.8
+[16:16:41] 
+[16:16:41]    (c) 2022 Alex "Y_Less" Cole  
+[16:16:41] 
+[16:16:41]  ===============================
+[16:16:41] 
+[16:16:41]   Loaded.
+[16:16:41]  Loading plugin: streamer
+[16:16:41] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:16:41]   Loaded.
+[16:16:41]  Loaded 2 plugins.
+
+[16:16:41] 
+[16:16:41] Filterscripts
+[16:16:41] ---------------
+[16:16:41]   Loaded 0 filterscripts.
+
+[16:16:41] 
+----------------------------------
+[16:16:41] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:16:41] ----------------------------------
+
+[16:16:41] Number of vehicle models: 1
+[16:17:14] [connection] incoming connection: 127.0.0.1:57707 id: 0
+[16:17:14] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:40:29] filterscripts = ""  (string)
+[16:40:29] 
+[16:40:29] Server Plugins
+[16:40:29] --------------
+[16:40:29]  Loading plugin: sscanf
+[16:40:29] 
+[16:40:29]  ===============================
+[16:40:29] 
+[16:40:29]       sscanf plugin loaded.     
+[16:40:29] 
+[16:40:29]          Version: 2.13.8
+[16:40:29] 
+[16:40:29]    (c) 2022 Alex "Y_Less" Cole  
+[16:40:29] 
+[16:40:29]  ===============================
+[16:40:29] 
+[16:40:29]   Loaded.
+[16:40:29]  Loading plugin: streamer
+[16:40:29] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:40:29]   Loaded.
+[16:40:29]  Loaded 2 plugins.
+
+[16:40:29] 
+[16:40:29] Filterscripts
+[16:40:29] ---------------
+[16:40:29]   Loaded 0 filterscripts.
+
+[16:40:29] 
+----------------------------------
+[16:40:29] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:40:29] ----------------------------------
+
+[16:40:29] Number of vehicle models: 1
+[16:41:34] [connection] incoming connection: 127.0.0.1:63302 id: 0
+[16:41:34] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:46:15] filterscripts = ""  (string)
+[16:46:15] 
+[16:46:15] Server Plugins
+[16:46:15] --------------
+[16:46:15]  Loading plugin: sscanf
+[16:46:15] 
+[16:46:15]  ===============================
+[16:46:15] 
+[16:46:15]       sscanf plugin loaded.     
+[16:46:15] 
+[16:46:15]          Version: 2.13.8
+[16:46:15] 
+[16:46:15]    (c) 2022 Alex "Y_Less" Cole  
+[16:46:15] 
+[16:46:15]  ===============================
+[16:46:15] 
+[16:46:15]   Loaded.
+[16:46:15]  Loading plugin: streamer
+[16:46:15] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:46:15]   Loaded.
+[16:46:15]  Loaded 2 plugins.
+
+[16:46:15] 
+[16:46:15] Filterscripts
+[16:46:15] ---------------
+[16:46:15]   Loaded 0 filterscripts.
+
+[16:46:15] 
+----------------------------------
+[16:46:15] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:46:15] ----------------------------------
+
+[16:46:15] Number of vehicle models: 1
+[16:46:48] [connection] incoming connection: 127.0.0.1:55724 id: 0
+[16:46:48] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:50:35] filterscripts = ""  (string)
+[16:50:35] 
+[16:50:35] Server Plugins
+[16:50:35] --------------
+[16:50:35]  Loading plugin: sscanf
+[16:50:35] 
+[16:50:35]  ===============================
+[16:50:35] 
+[16:50:35]       sscanf plugin loaded.     
+[16:50:35] 
+[16:50:35]          Version: 2.13.8
+[16:50:35] 
+[16:50:35]    (c) 2022 Alex "Y_Less" Cole  
+[16:50:35] 
+[16:50:35]  ===============================
+[16:50:35] 
+[16:50:35]   Loaded.
+[16:50:35]  Loading plugin: streamer
+[16:50:35] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:50:35]   Loaded.
+[16:50:35]  Loaded 2 plugins.
+
+[16:50:35] 
+[16:50:35] Filterscripts
+[16:50:35] ---------------
+[16:50:35]   Loaded 0 filterscripts.
+
+[16:50:35] 
+----------------------------------
+[16:50:35] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:50:35] ----------------------------------
+
+[16:50:35] Number of vehicle models: 1
+[16:50:38] [connection] incoming connection: 127.0.0.1:51019 id: 0
+[16:50:38] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:51:05] filterscripts = ""  (string)
+[16:51:05] 
+[16:51:05] Server Plugins
+[16:51:05] --------------
+[16:51:05]  Loading plugin: sscanf
+[16:51:05] 
+[16:51:05]  ===============================
+[16:51:05] 
+[16:51:05]       sscanf plugin loaded.     
+[16:51:05] 
+[16:51:05]          Version: 2.13.8
+[16:51:05] 
+[16:51:05]    (c) 2022 Alex "Y_Less" Cole  
+[16:51:05] 
+[16:51:05]  ===============================
+[16:51:05] 
+[16:51:05]   Loaded.
+[16:51:05]  Loading plugin: streamer
+[16:51:05] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:51:05]   Loaded.
+[16:51:05]  Loaded 2 plugins.
+
+[16:51:05] 
+[16:51:05] Filterscripts
+[16:51:05] ---------------
+[16:51:05]   Loaded 0 filterscripts.
+
+[16:51:05] 
+----------------------------------
+[16:51:05] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:51:05] ----------------------------------
+
+[16:51:05] Number of vehicle models: 1
+[16:51:35] [connection] incoming connection: 127.0.0.1:57577 id: 0
+[16:51:35] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:51:59] filterscripts = ""  (string)
+[16:51:59] 
+[16:51:59] Server Plugins
+[16:51:59] --------------
+[16:51:59]  Loading plugin: sscanf
+[16:51:59] 
+[16:51:59]  ===============================
+[16:51:59] 
+[16:51:59]       sscanf plugin loaded.     
+[16:51:59] 
+[16:51:59]          Version: 2.13.8
+[16:51:59] 
+[16:51:59]    (c) 2022 Alex "Y_Less" Cole  
+[16:51:59] 
+[16:51:59]  ===============================
+[16:51:59] 
+[16:51:59]   Loaded.
+[16:51:59]  Loading plugin: streamer
+[16:51:59] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[16:51:59]   Loaded.
+[16:51:59]  Loaded 2 plugins.
+
+[16:51:59] 
+[16:51:59] Filterscripts
+[16:51:59] ---------------
+[16:51:59]   Loaded 0 filterscripts.
+
+[16:51:59] 
+----------------------------------
+[16:51:59] TELA DE LOGIN CARREGADA COM SUCESSO!
+[16:51:59] ----------------------------------
+
+[16:51:59] Number of vehicle models: 1
+[16:52:31] [connection] incoming connection: 127.0.0.1:55194 id: 0
+[16:52:32] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[17:01:04] [connection] incoming connection: 127.0.0.1:55407 id: 1
+[17:01:13] [part] Poli_Rafax has left the server (0:0)
+[17:02:54] [connection] incoming connection: 127.0.0.1:59846 id: 0
+[17:02:55] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[17:06:34] [part] Poli_Rafax has left the server (0:0)
+[17:18:43] [connection] incoming connection: 127.0.0.1:59086 id: 0
+[17:18:44] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:22:09] filterscripts = ""  (string)
+[17:22:09] 
+[17:22:09] Server Plugins
+[17:22:09] --------------
+[17:22:09]  Loading plugin: sscanf
+[17:22:09] 
+[17:22:09]  ===============================
+[17:22:09] 
+[17:22:09]       sscanf plugin loaded.     
+[17:22:09] 
+[17:22:09]          Version: 2.13.8
+[17:22:09] 
+[17:22:09]    (c) 2022 Alex "Y_Less" Cole  
+[17:22:09] 
+[17:22:09]  ===============================
+[17:22:09] 
+[17:22:09]   Loaded.
+[17:22:09]  Loading plugin: streamer
+[17:22:09] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[17:22:09]   Loaded.
+[17:22:09]  Loaded 2 plugins.
+
+[17:22:09] 
+[17:22:09] Filterscripts
+[17:22:09] ---------------
+[17:22:09]   Loaded 0 filterscripts.
+
+[17:22:09] 
+----------------------------------
+[17:22:09] TELA DE LOGIN CARREGADA COM SUCESSO!
+[17:22:09] ----------------------------------
+
+[17:22:09] Number of vehicle models: 1
+[17:22:14] [connection] incoming connection: 127.0.0.1:52181 id: 0
+[17:22:14] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:40:02] filterscripts = ""  (string)
+[17:40:02] 
+[17:40:02] Server Plugins
+[17:40:02] --------------
+[17:40:02]  Loading plugin: sscanf
+[17:40:02] 
+[17:40:02]  ===============================
+[17:40:02] 
+[17:40:02]       sscanf plugin loaded.     
+[17:40:02] 
+[17:40:02]          Version: 2.13.8
+[17:40:02] 
+[17:40:02]    (c) 2022 Alex "Y_Less" Cole  
+[17:40:02] 
+[17:40:02]  ===============================
+[17:40:02] 
+[17:40:02]   Loaded.
+[17:40:02]  Loading plugin: streamer
+[17:40:02] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[17:40:02]   Loaded.
+[17:40:02]  Loaded 2 plugins.
+
+[17:40:02] 
+[17:40:02] Filterscripts
+[17:40:02] ---------------
+[17:40:02]   Loaded 0 filterscripts.
+
+[17:40:02] 
+----------------------------------
+[17:40:02] TELA DE LOGIN CARREGADA COM SUCESSO!
+[17:40:02] ----------------------------------
+
+[17:40:02] Number of vehicle models: 1
+[17:40:46] [connection] incoming connection: 127.0.0.1:63783 id: 0
+[17:40:47] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[17:41:37] [connection] incoming connection: 127.0.0.1:53784 id: 1
+[17:41:46] [part] Poli_Rafax has left the server (0:0)
+[17:42:40] [connection] incoming connection: 127.0.0.1:55357 id: 0
+[17:42:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:44:53] filterscripts = ""  (string)
+[17:44:53] 
+[17:44:53] Server Plugins
+[17:44:53] --------------
+[17:44:53]  Loading plugin: sscanf
+[17:44:53] 
+[17:44:53]  ===============================
+[17:44:53] 
+[17:44:53]       sscanf plugin loaded.     
+[17:44:53] 
+[17:44:53]          Version: 2.13.8
+[17:44:53] 
+[17:44:53]    (c) 2022 Alex "Y_Less" Cole  
+[17:44:53] 
+[17:44:53]  ===============================
+[17:44:53] 
+[17:44:53]   Loaded.
+[17:44:53]  Loading plugin: streamer
+[17:44:53] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[17:44:53]   Loaded.
+[17:44:53]  Loaded 2 plugins.
+
+[17:44:53] 
+[17:44:53] Filterscripts
+[17:44:53] ---------------
+[17:44:53]   Loaded 0 filterscripts.
+
+[17:44:53] 
+----------------------------------
+[17:44:53] TELA DE LOGIN CARREGADA COM SUCESSO!
+[17:44:53] ----------------------------------
+
+[17:44:53] Number of vehicle models: 1
+[17:45:23] [connection] incoming connection: 127.0.0.1:64561 id: 0
+[17:45:23] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:51:19] filterscripts = ""  (string)
+[17:51:19] 
+[17:51:19] Server Plugins
+[17:51:19] --------------
+[17:51:19]  Loading plugin: sscanf
+[17:51:19] 
+[17:51:19]  ===============================
+[17:51:19] 
+[17:51:19]       sscanf plugin loaded.     
+[17:51:19] 
+[17:51:19]          Version: 2.13.8
+[17:51:19] 
+[17:51:19]    (c) 2022 Alex "Y_Less" Cole  
+[17:51:19] 
+[17:51:19]  ===============================
+[17:51:19] 
+[17:51:19]   Loaded.
+[17:51:19]  Loading plugin: streamer
+[17:51:19] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[17:51:19]   Loaded.
+[17:51:19]  Loaded 2 plugins.
+
+[17:51:19] 
+[17:51:19] Filterscripts
+[17:51:19] ---------------
+[17:51:19]   Loaded 0 filterscripts.
+
+[17:51:19] 
+----------------------------------
+[17:51:19] TELA DE LOGIN CARREGADA COM SUCESSO!
+[17:51:19] ----------------------------------
+
+[17:51:19] Number of vehicle models: 1
+[17:51:23] [connection] incoming connection: 127.0.0.1:62117 id: 0
+[17:51:23] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:08:36] filterscripts = ""  (string)
+[18:08:36] 
+[18:08:36] Server Plugins
+[18:08:36] --------------
+[18:08:36]  Loading plugin: sscanf
+[18:08:36] 
+[18:08:36]  ===============================
+[18:08:36] 
+[18:08:36]       sscanf plugin loaded.     
+[18:08:36] 
+[18:08:36]          Version: 2.13.8
+[18:08:36] 
+[18:08:36]    (c) 2022 Alex "Y_Less" Cole  
+[18:08:36] 
+[18:08:36]  ===============================
+[18:08:36] 
+[18:08:36]   Loaded.
+[18:08:36]  Loading plugin: streamer
+[18:08:36] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:08:36]   Loaded.
+[18:08:36]  Loaded 2 plugins.
+
+[18:08:36] 
+[18:08:36] Filterscripts
+[18:08:36] ---------------
+[18:08:36]   Loaded 0 filterscripts.
+
+[18:08:36] 
+----------------------------------
+[18:08:36] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:08:36] ----------------------------------
+
+[18:08:36] Number of vehicle models: 1
+[18:09:14] [connection] incoming connection: 127.0.0.1:59002 id: 0
+[18:09:14] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[18:11:46] [part] Poli_Rafax has left the server (0:0)
+[18:16:13] [connection] incoming connection: 127.0.0.1:53984 id: 0
+[18:16:14] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:16:50] filterscripts = ""  (string)
+[18:16:50] 
+[18:16:50] Server Plugins
+[18:16:50] --------------
+[18:16:50]  Loading plugin: sscanf
+[18:16:50] 
+[18:16:50]  ===============================
+[18:16:50] 
+[18:16:50]       sscanf plugin loaded.     
+[18:16:50] 
+[18:16:50]          Version: 2.13.8
+[18:16:50] 
+[18:16:50]    (c) 2022 Alex "Y_Less" Cole  
+[18:16:50] 
+[18:16:50]  ===============================
+[18:16:50] 
+[18:16:50]   Loaded.
+[18:16:50]  Loading plugin: streamer
+[18:16:50] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:16:50]   Loaded.
+[18:16:50]  Loaded 2 plugins.
+
+[18:16:50] 
+[18:16:50] Filterscripts
+[18:16:50] ---------------
+[18:16:50]   Loaded 0 filterscripts.
+
+[18:16:50] 
+----------------------------------
+[18:16:50] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:16:50] ----------------------------------
+
+[18:16:50] Number of vehicle models: 1
+[18:16:54] [connection] incoming connection: 127.0.0.1:56659 id: 0
+[18:16:54] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:21:07] filterscripts = ""  (string)
+[18:21:07] 
+[18:21:07] Server Plugins
+[18:21:07] --------------
+[18:21:07]  Loading plugin: sscanf
+[18:21:07] 
+[18:21:07]  ===============================
+[18:21:07] 
+[18:21:07]       sscanf plugin loaded.     
+[18:21:07] 
+[18:21:07]          Version: 2.13.8
+[18:21:07] 
+[18:21:07]    (c) 2022 Alex "Y_Less" Cole  
+[18:21:07] 
+[18:21:07]  ===============================
+[18:21:07] 
+[18:21:07]   Loaded.
+[18:21:07]  Loading plugin: streamer
+[18:21:07] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:21:07]   Loaded.
+[18:21:07]  Loaded 2 plugins.
+
+[18:21:07] 
+[18:21:07] Filterscripts
+[18:21:07] ---------------
+[18:21:07]   Loaded 0 filterscripts.
+
+[18:21:07] 
+----------------------------------
+[18:21:07] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:21:07] ----------------------------------
+
+[18:21:08] Number of vehicle models: 1
+[18:22:11] [connection] incoming connection: 127.0.0.1:64865 id: 0
+[18:22:11] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[18:23:12] [connection] incoming connection: 127.0.0.1:59039 id: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:24:28] filterscripts = ""  (string)
+[18:24:28] 
+[18:24:28] Server Plugins
+[18:24:28] --------------
+[18:24:28]  Loading plugin: sscanf
+[18:24:28] 
+[18:24:28]  ===============================
+[18:24:28] 
+[18:24:28]       sscanf plugin loaded.     
+[18:24:28] 
+[18:24:28]          Version: 2.13.8
+[18:24:28] 
+[18:24:28]    (c) 2022 Alex "Y_Less" Cole  
+[18:24:28] 
+[18:24:28]  ===============================
+[18:24:28] 
+[18:24:28]   Loaded.
+[18:24:28]  Loading plugin: streamer
+[18:24:28] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:24:28]   Loaded.
+[18:24:28]  Loaded 2 plugins.
+
+[18:24:28] 
+[18:24:28] Filterscripts
+[18:24:28] ---------------
+[18:24:28]   Loaded 0 filterscripts.
+
+[18:24:28] 
+----------------------------------
+[18:24:28] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:24:28] ----------------------------------
+
+[18:24:28] Number of vehicle models: 1
+[18:24:57] [connection] incoming connection: 127.0.0.1:63098 id: 0
+[18:24:58] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[18:27:13] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:29:24] filterscripts = ""  (string)
+[18:29:24] 
+[18:29:24] Server Plugins
+[18:29:24] --------------
+[18:29:24]  Loading plugin: sscanf
+[18:29:24] 
+[18:29:24]  ===============================
+[18:29:24] 
+[18:29:24]       sscanf plugin loaded.     
+[18:29:24] 
+[18:29:24]          Version: 2.13.8
+[18:29:24] 
+[18:29:24]    (c) 2022 Alex "Y_Less" Cole  
+[18:29:24] 
+[18:29:24]  ===============================
+[18:29:24] 
+[18:29:24]   Loaded.
+[18:29:24]  Loading plugin: streamer
+[18:29:24] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:29:24]   Loaded.
+[18:29:24]  Loaded 2 plugins.
+
+[18:29:25] 
+[18:29:25] Filterscripts
+[18:29:25] ---------------
+[18:29:25]   Loaded 0 filterscripts.
+
+[18:29:25] 
+----------------------------------
+[18:29:25] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:29:25] ----------------------------------
+
+[18:29:25] Number of vehicle models: 1
+[18:29:27] [connection] incoming connection: 127.0.0.1:59080 id: 0
+[18:29:28] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:41:14] filterscripts = ""  (string)
+[18:41:14] 
+[18:41:14] Server Plugins
+[18:41:14] --------------
+[18:41:14]  Loading plugin: sscanf
+[18:41:14] 
+[18:41:14]  ===============================
+[18:41:14] 
+[18:41:14]       sscanf plugin loaded.     
+[18:41:14] 
+[18:41:14]          Version: 2.13.8
+[18:41:14] 
+[18:41:14]    (c) 2022 Alex "Y_Less" Cole  
+[18:41:14] 
+[18:41:14]  ===============================
+[18:41:14] 
+[18:41:14]   Loaded.
+[18:41:14]  Loading plugin: streamer
+[18:41:14] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:41:14]   Loaded.
+[18:41:14]  Loaded 2 plugins.
+
+[18:41:14] 
+[18:41:14] Filterscripts
+[18:41:14] ---------------
+[18:41:14]   Loaded 0 filterscripts.
+
+[18:41:14] 
+----------------------------------
+[18:41:14] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:41:14] ----------------------------------
+
+[18:41:14] Number of vehicle models: 1
+[18:41:46] [connection] incoming connection: 127.0.0.1:55543 id: 0
+[18:41:46] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:46:19] filterscripts = ""  (string)
+[18:46:19] 
+[18:46:19] Server Plugins
+[18:46:19] --------------
+[18:46:19]  Loading plugin: sscanf
+[18:46:19] 
+[18:46:19]  ===============================
+[18:46:19] 
+[18:46:19]       sscanf plugin loaded.     
+[18:46:19] 
+[18:46:19]          Version: 2.13.8
+[18:46:19] 
+[18:46:19]    (c) 2022 Alex "Y_Less" Cole  
+[18:46:19] 
+[18:46:19]  ===============================
+[18:46:19] 
+[18:46:19]   Loaded.
+[18:46:19]  Loading plugin: streamer
+[18:46:19] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[18:46:19]   Loaded.
+[18:46:19]  Loaded 2 plugins.
+
+[18:46:19] 
+[18:46:19] Filterscripts
+[18:46:19] ---------------
+[18:46:19]   Loaded 0 filterscripts.
+
+[18:46:19] 
+----------------------------------
+[18:46:19] TELA DE LOGIN CARREGADA COM SUCESSO!
+[18:46:19] ----------------------------------
+
+[18:46:19] Number of vehicle models: 1
+[18:47:00] [connection] incoming connection: 127.0.0.1:62466 id: 0
+[18:47:01] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[18:48:50] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:13:51] filterscripts = ""  (string)
+[19:13:51] 
+[19:13:51] Server Plugins
+[19:13:51] --------------
+[19:13:51]  Loading plugin: sscanf
+[19:13:51] 
+[19:13:51]  ===============================
+[19:13:51] 
+[19:13:51]       sscanf plugin loaded.     
+[19:13:51] 
+[19:13:51]          Version: 2.13.8
+[19:13:51] 
+[19:13:51]    (c) 2022 Alex "Y_Less" Cole  
+[19:13:51] 
+[19:13:51]  ===============================
+[19:13:51] 
+[19:13:51]   Loaded.
+[19:13:51]  Loading plugin: streamer
+[19:13:51] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[19:13:51]   Loaded.
+[19:13:51]  Loaded 2 plugins.
+
+[19:13:51] 
+[19:13:51] Filterscripts
+[19:13:51] ---------------
+[19:13:51]   Loaded 0 filterscripts.
+
+[19:13:52] 
+----------------------------------
+[19:13:52] TELA DE LOGIN CARREGADA COM SUCESSO!
+[19:13:52] ----------------------------------
+
+[19:13:52] Number of vehicle models: 1
+[19:14:03] [connection] incoming connection: 127.0.0.1:54845 id: 0
+[19:14:03] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[19:15:07] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:01] filterscripts = ""  (string)
+[19:23:01] 
+[19:23:01] Server Plugins
+[19:23:01] --------------
+[19:23:01]  Loading plugin: sscanf
+[19:23:01] 
+[19:23:01]  ===============================
+[19:23:01] 
+[19:23:01]       sscanf plugin loaded.     
+[19:23:01] 
+[19:23:01]          Version: 2.13.8
+[19:23:01] 
+[19:23:01]    (c) 2022 Alex "Y_Less" Cole  
+[19:23:01] 
+[19:23:01]  ===============================
+[19:23:01] 
+[19:23:01]   Loaded.
+[19:23:01]  Loading plugin: streamer
+[19:23:01] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[19:23:01]   Loaded.
+[19:23:01]  Loaded 2 plugins.
+
+[19:23:01] 
+[19:23:01] Filterscripts
+[19:23:01] ---------------
+[19:23:01]   Loaded 0 filterscripts.
+
+[19:23:01] 
+----------------------------------
+[19:23:01] TELA DE LOGIN CARREGADA COM SUCESSO!
+[19:23:01] ----------------------------------
+
+[19:23:01] Number of vehicle models: 1
+[19:23:39] [connection] incoming connection: 127.0.0.1:64810 id: 0
+[19:23:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:34:04] filterscripts = ""  (string)
+[19:34:04] 
+[19:34:04] Server Plugins
+[19:34:04] --------------
+[19:34:04]  Loading plugin: sscanf
+[19:34:04] 
+[19:34:04]  ===============================
+[19:34:04] 
+[19:34:04]       sscanf plugin loaded.     
+[19:34:04] 
+[19:34:04]          Version: 2.13.8
+[19:34:04] 
+[19:34:04]    (c) 2022 Alex "Y_Less" Cole  
+[19:34:04] 
+[19:34:04]  ===============================
+[19:34:04] 
+[19:34:04]   Loaded.
+[19:34:04]  Loading plugin: streamer
+[19:34:04] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[19:34:04]   Loaded.
+[19:34:04]  Loaded 2 plugins.
+
+[19:34:04] 
+[19:34:04] Filterscripts
+[19:34:04] ---------------
+[19:34:04]   Loaded 0 filterscripts.
+
+[19:34:04] 
+----------------------------------
+[19:34:04] TELA DE LOGIN CARREGADA COM SUCESSO!
+[19:34:04] ----------------------------------
+
+[19:34:04] Number of vehicle models: 1
+[19:34:08] [connection] incoming connection: 127.0.0.1:64896 id: 0
+[19:34:09] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:55:28] filterscripts = ""  (string)
+[19:55:28] 
+[19:55:28] Server Plugins
+[19:55:28] --------------
+[19:55:28]  Loading plugin: sscanf
+[19:55:28] 
+[19:55:28]  ===============================
+[19:55:28] 
+[19:55:28]       sscanf plugin loaded.     
+[19:55:28] 
+[19:55:28]          Version: 2.13.8
+[19:55:28] 
+[19:55:28]    (c) 2022 Alex "Y_Less" Cole  
+[19:55:28] 
+[19:55:28]  ===============================
+[19:55:28] 
+[19:55:28]   Loaded.
+[19:55:28]  Loading plugin: streamer
+[19:55:28] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[19:55:28]   Loaded.
+[19:55:28]  Loaded 2 plugins.
+
+[19:55:28] 
+[19:55:28] Filterscripts
+[19:55:28] ---------------
+[19:55:28]   Loaded 0 filterscripts.
+
+[19:55:28] 
+----------------------------------
+[19:55:28] TELA DE LOGIN CARREGADA COM SUCESSO!
+[19:55:28] ----------------------------------
+
+[19:55:28] Number of vehicle models: 1
+[19:56:02] [connection] incoming connection: 127.0.0.1:55661 id: 0
+[19:56:02] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[19:59:13] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:02:37] filterscripts = ""  (string)
+[20:02:37] 
+[20:02:37] Server Plugins
+[20:02:37] --------------
+[20:02:37]  Loading plugin: sscanf
+[20:02:37] 
+[20:02:37]  ===============================
+[20:02:37] 
+[20:02:37]       sscanf plugin loaded.     
+[20:02:37] 
+[20:02:37]          Version: 2.13.8
+[20:02:37] 
+[20:02:37]    (c) 2022 Alex "Y_Less" Cole  
+[20:02:37] 
+[20:02:37]  ===============================
+[20:02:37] 
+[20:02:37]   Loaded.
+[20:02:37]  Loading plugin: streamer
+[20:02:37] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:02:37]   Loaded.
+[20:02:37]  Loaded 2 plugins.
+
+[20:02:37] 
+[20:02:37] Filterscripts
+[20:02:37] ---------------
+[20:02:37]   Loaded 0 filterscripts.
+
+[20:02:37] 
+----------------------------------
+[20:02:37] TELA DE LOGIN CARREGADA COM SUCESSO!
+[20:02:37] ----------------------------------
+
+[20:02:37] Number of vehicle models: 1
+[20:03:12] [connection] incoming connection: 127.0.0.1:65147 id: 0
+[20:03:13] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[20:07:19] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:11:39] filterscripts = ""  (string)
+[20:11:39] 
+[20:11:39] Server Plugins
+[20:11:39] --------------
+[20:11:39]  Loading plugin: sscanf
+[20:11:39] 
+[20:11:39]  ===============================
+[20:11:39] 
+[20:11:39]       sscanf plugin loaded.     
+[20:11:39] 
+[20:11:39]          Version: 2.13.8
+[20:11:39] 
+[20:11:39]    (c) 2022 Alex "Y_Less" Cole  
+[20:11:39] 
+[20:11:39]  ===============================
+[20:11:39] 
+[20:11:39]   Loaded.
+[20:11:39]  Loading plugin: streamer
+[20:11:39] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:11:39]   Loaded.
+[20:11:39]  Loaded 2 plugins.
+
+[20:11:39] 
+[20:11:39] Filterscripts
+[20:11:39] ---------------
+[20:11:39]   Loaded 0 filterscripts.
+
+[20:11:39] 
+----------------------------------
+[20:11:39] TELA DE LOGIN CARREGADA COM SUCESSO!
+[20:11:39] ----------------------------------
+
+[20:11:39] Number of vehicle models: 1
+[20:12:11] [connection] incoming connection: 127.0.0.1:55017 id: 0
+[20:12:12] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[20:14:19] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:28:16] filterscripts = ""  (string)
+[20:28:16] 
+[20:28:16] Server Plugins
+[20:28:16] --------------
+[20:28:16]  Loading plugin: sscanf
+[20:28:16] 
+[20:28:16]  ===============================
+[20:28:16] 
+[20:28:16]       sscanf plugin loaded.     
+[20:28:16] 
+[20:28:16]          Version: 2.13.8
+[20:28:16] 
+[20:28:16]    (c) 2022 Alex "Y_Less" Cole  
+[20:28:16] 
+[20:28:16]  ===============================
+[20:28:16] 
+[20:28:16]   Loaded.
+[20:28:16]  Loading plugin: streamer
+[20:28:16] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:28:16]   Loaded.
+[20:28:16]  Loaded 2 plugins.
+
+[20:28:16] 
+[20:28:16] Filterscripts
+[20:28:16] ---------------
+[20:28:16]   Loaded 0 filterscripts.
+
+[20:28:16] 
+----------------------------------
+[20:28:16] TELA DE LOGIN CARREGADA COM SUCESSO!
+[20:28:16] ----------------------------------
+
+[20:28:16] Number of vehicle models: 1
+[20:28:47] [connection] incoming connection: 127.0.0.1:50273 id: 0
+[20:28:47] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[20:31:26] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:34:38] filterscripts = ""  (string)
+[20:34:38] 
+[20:34:38] Server Plugins
+[20:34:38] --------------
+[20:34:38]  Loading plugin: sscanf
+[20:34:38] 
+[20:34:38]  ===============================
+[20:34:38] 
+[20:34:38]       sscanf plugin loaded.     
+[20:34:38] 
+[20:34:38]          Version: 2.13.8
+[20:34:38] 
+[20:34:38]    (c) 2022 Alex "Y_Less" Cole  
+[20:34:38] 
+[20:34:38]  ===============================
+[20:34:38] 
+[20:34:38]   Loaded.
+[20:34:38]  Loading plugin: streamer
+[20:34:38] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:34:38]   Loaded.
+[20:34:38]  Loaded 2 plugins.
+
+[20:34:38] 
+[20:34:38] Filterscripts
+[20:34:38] ---------------
+[20:34:38]   Loaded 0 filterscripts.
+
+[20:34:38] 
+----------------------------------
+[20:34:38] TELA DE LOGIN CARREGADA COM SUCESSO!
+[20:34:38] ----------------------------------
+
+[20:34:38] Number of vehicle models: 1
+[20:35:10] [connection] incoming connection: 127.0.0.1:59389 id: 0
+[20:35:11] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:35:39] filterscripts = ""  (string)
+[20:35:39] 
+[20:35:39] Server Plugins
+[20:35:39] --------------
+[20:35:39]  Loading plugin: sscanf
+[20:35:39] 
+[20:35:39]  ===============================
+[20:35:39] 
+[20:35:39]       sscanf plugin loaded.     
+[20:35:39] 
+[20:35:39]          Version: 2.13.8
+[20:35:39] 
+[20:35:39]    (c) 2022 Alex "Y_Less" Cole  
+[20:35:39] 
+[20:35:39]  ===============================
+[20:35:39] 
+[20:35:39]   Loaded.
+[20:35:39]  Loading plugin: streamer
+[20:35:39] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:35:39]   Loaded.
+[20:35:39]  Loaded 2 plugins.
+
+[20:35:39] 
+[20:35:39] Filterscripts
+[20:35:39] ---------------
+[20:35:39]   Loaded 0 filterscripts.
+
+[20:35:39] 
+----------------------------------
+[20:35:39] TELA DE LOGIN CARREGADA COM SUCESSO!
+[20:35:39] ----------------------------------
+
+[20:35:39] Number of vehicle models: 1
+[20:36:18] [connection] incoming connection: 127.0.0.1:57904 id: 0
+[20:36:19] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[20:40:26] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:53:58] filterscripts = ""  (string)
+[20:53:58] 
+[20:53:58] Server Plugins
+[20:53:58] --------------
+[20:53:58]  Loading plugin: sscanf
+[20:53:58] 
+[20:53:58]  ===============================
+[20:53:58] 
+[20:53:58]       sscanf plugin loaded.     
+[20:53:58] 
+[20:53:58]          Version: 2.13.8
+[20:53:58] 
+[20:53:58]    (c) 2022 Alex "Y_Less" Cole  
+[20:53:58] 
+[20:53:58]  ===============================
+[20:53:58] 
+[20:53:58]   Loaded.
+[20:53:58]  Loading plugin: streamer
+[20:53:58] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[20:53:58]   Loaded.
+[20:53:58]  Loaded 2 plugins.
+
+[20:53:58] 
+[20:53:58] Filterscripts
+[20:53:58] ---------------
+[20:53:58]   Loaded 0 filterscripts.
+
+[20:53:58] 
+----------------------------------
+[20:53:58] TELA DE LOGIN CARREGADA COM SUCESSO!
+[20:53:58] ----------------------------------
+
+[20:53:58] Number of vehicle models: 1
+[20:54:29] [connection] incoming connection: 127.0.0.1:51253 id: 0
+[20:54:30] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[20:57:34] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:01:09] filterscripts = ""  (string)
+[21:01:09] 
+[21:01:09] Server Plugins
+[21:01:09] --------------
+[21:01:09]  Loading plugin: sscanf
+[21:01:09] 
+[21:01:09]  ===============================
+[21:01:09] 
+[21:01:09]       sscanf plugin loaded.     
+[21:01:09] 
+[21:01:09]          Version: 2.13.8
+[21:01:09] 
+[21:01:09]    (c) 2022 Alex "Y_Less" Cole  
+[21:01:09] 
+[21:01:09]  ===============================
+[21:01:09] 
+[21:01:09]   Loaded.
+[21:01:09]  Loading plugin: streamer
+[21:01:09] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:01:09]   Loaded.
+[21:01:09]  Loaded 2 plugins.
+
+[21:01:10] 
+[21:01:10] Filterscripts
+[21:01:10] ---------------
+[21:01:10]   Loaded 0 filterscripts.
+
+[21:01:10] 
+----------------------------------
+[21:01:10] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:01:10] ----------------------------------
+
+[21:01:10] Number of vehicle models: 1
+[21:01:48] [connection] incoming connection: 127.0.0.1:63714 id: 0
+[21:01:48] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[21:03:41] [connection] incoming connection: 127.0.0.1:61896 id: 1
+[21:03:42] [connection] incoming connection: 127.0.0.1:61897 id: 2
+[21:03:48] [part] Poli_Rafax has left the server (0:0)
+[21:04:21] [connection] incoming connection: 127.0.0.1:51690 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:04:32] filterscripts = ""  (string)
+[21:04:32] 
+[21:04:32] Server Plugins
+[21:04:32] --------------
+[21:04:32]  Loading plugin: sscanf
+[21:04:32] 
+[21:04:32]  ===============================
+[21:04:32] 
+[21:04:32]       sscanf plugin loaded.     
+[21:04:32] 
+[21:04:32]          Version: 2.13.8
+[21:04:32] 
+[21:04:32]    (c) 2022 Alex "Y_Less" Cole  
+[21:04:32] 
+[21:04:32]  ===============================
+[21:04:32] 
+[21:04:32]   Loaded.
+[21:04:32]  Loading plugin: streamer
+[21:04:32] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:04:32]   Loaded.
+[21:04:32]  Loaded 2 plugins.
+
+[21:04:32] 
+[21:04:33] Filterscripts
+[21:04:33] ---------------
+[21:04:33]   Loaded 0 filterscripts.
+
+[21:04:33] 
+----------------------------------
+[21:04:33] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:04:33] ----------------------------------
+
+[21:04:33] Number of vehicle models: 1
+[21:04:35] [connection] incoming connection: 127.0.0.1:51691 id: 0
+[21:04:35] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:08:41] filterscripts = ""  (string)
+[21:08:41] 
+[21:08:41] Server Plugins
+[21:08:41] --------------
+[21:08:41]  Loading plugin: sscanf
+[21:08:41] 
+[21:08:41]  ===============================
+[21:08:41] 
+[21:08:41]       sscanf plugin loaded.     
+[21:08:41] 
+[21:08:41]          Version: 2.13.8
+[21:08:41] 
+[21:08:41]    (c) 2022 Alex "Y_Less" Cole  
+[21:08:41] 
+[21:08:41]  ===============================
+[21:08:41] 
+[21:08:41]   Loaded.
+[21:08:41]  Loading plugin: streamer
+[21:08:41] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:08:41]   Loaded.
+[21:08:41]  Loaded 2 plugins.
+
+[21:08:41] 
+[21:08:41] Filterscripts
+[21:08:41] ---------------
+[21:08:41]   Loaded 0 filterscripts.
+
+[21:08:41] 
+----------------------------------
+[21:08:41] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:08:41] ----------------------------------
+
+[21:08:41] Number of vehicle models: 1
+[21:08:45] [connection] incoming connection: 127.0.0.1:63107 id: 0
+[21:08:46] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:16:11] filterscripts = ""  (string)
+[21:16:11] 
+[21:16:11] Server Plugins
+[21:16:11] --------------
+[21:16:11]  Loading plugin: sscanf
+[21:16:11] 
+[21:16:11]  ===============================
+[21:16:11] 
+[21:16:11]       sscanf plugin loaded.     
+[21:16:11] 
+[21:16:11]          Version: 2.13.8
+[21:16:11] 
+[21:16:11]    (c) 2022 Alex "Y_Less" Cole  
+[21:16:11] 
+[21:16:11]  ===============================
+[21:16:11] 
+[21:16:11]   Loaded.
+[21:16:11]  Loading plugin: streamer
+[21:16:11] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:16:11]   Loaded.
+[21:16:11]  Loaded 2 plugins.
+
+[21:16:12] 
+[21:16:12] Filterscripts
+[21:16:12] ---------------
+[21:16:12]   Loaded 0 filterscripts.
+
+[21:16:12] 
+----------------------------------
+[21:16:12] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:16:12] ----------------------------------
+
+[21:16:12] Number of vehicle models: 1
+[21:16:54] [connection] incoming connection: 127.0.0.1:62339 id: 0
+[21:16:55] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[21:19:27] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:24:23] filterscripts = ""  (string)
+[21:24:23] 
+[21:24:23] Server Plugins
+[21:24:23] --------------
+[21:24:23]  Loading plugin: sscanf
+[21:24:23] 
+[21:24:23]  ===============================
+[21:24:23] 
+[21:24:23]       sscanf plugin loaded.     
+[21:24:23] 
+[21:24:23]          Version: 2.13.8
+[21:24:23] 
+[21:24:23]    (c) 2022 Alex "Y_Less" Cole  
+[21:24:23] 
+[21:24:23]  ===============================
+[21:24:23] 
+[21:24:24]   Loaded.
+[21:24:24]  Loading plugin: streamer
+[21:24:24] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:24:24]   Loaded.
+[21:24:24]  Loaded 2 plugins.
+
+[21:24:24] 
+[21:24:24] Filterscripts
+[21:24:24] ---------------
+[21:24:24]   Loaded 0 filterscripts.
+
+[21:24:24] 
+----------------------------------
+[21:24:24] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:24:24] ----------------------------------
+
+[21:24:24] Number of vehicle models: 1
+[21:25:02] [connection] incoming connection: 127.0.0.1:50233 id: 0
+[21:25:03] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:32:26] filterscripts = ""  (string)
+[21:32:26] 
+[21:32:26] Server Plugins
+[21:32:26] --------------
+[21:32:26]  Loading plugin: sscanf
+[21:32:26] 
+[21:32:26]  ===============================
+[21:32:26] 
+[21:32:26]       sscanf plugin loaded.     
+[21:32:26] 
+[21:32:26]          Version: 2.13.8
+[21:32:26] 
+[21:32:26]    (c) 2022 Alex "Y_Less" Cole  
+[21:32:26] 
+[21:32:26]  ===============================
+[21:32:26] 
+[21:32:26]   Loaded.
+[21:32:26]  Loading plugin: streamer
+[21:32:26] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:32:26]   Loaded.
+[21:32:26]  Loaded 2 plugins.
+
+[21:32:26] 
+[21:32:26] Filterscripts
+[21:32:26] ---------------
+[21:32:26]   Loaded 0 filterscripts.
+
+[21:32:26] 
+----------------------------------
+[21:32:26] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:32:26] ----------------------------------
+
+[21:32:26] Number of vehicle models: 1
+[21:36:48] [connection] incoming connection: 127.0.0.1:61422 id: 0
+[21:36:49] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[21:38:31] [part] Poli_Rafax has left the server (0:0)
+[21:38:48] [connection] incoming connection: 127.0.0.1:51476 id: 0
+[21:38:48] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:39:12] filterscripts = ""  (string)
+[21:39:12] 
+[21:39:12] Server Plugins
+[21:39:12] --------------
+[21:39:12]  Loading plugin: sscanf
+[21:39:12] 
+[21:39:13]  ===============================
+[21:39:13] 
+[21:39:13]       sscanf plugin loaded.     
+[21:39:13] 
+[21:39:13]          Version: 2.13.8
+[21:39:13] 
+[21:39:13]    (c) 2022 Alex "Y_Less" Cole  
+[21:39:13] 
+[21:39:13]  ===============================
+[21:39:14] 
+[21:39:14]   Loaded.
+[21:39:14]  Loading plugin: streamer
+[21:39:16] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:39:16]   Loaded.
+[21:39:17]  Loaded 2 plugins.
+
+[21:39:18] 
+[21:39:18] Filterscripts
+[21:39:18] ---------------
+[21:39:18]   Loaded 0 filterscripts.
+
+[21:39:19] 
+----------------------------------
+[21:39:19] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:39:19] ----------------------------------
+
+[21:39:19] Number of vehicle models: 1
+[21:39:23] [connection] incoming connection: 127.0.0.1:54333 id: 0
+[21:39:24] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:50:30] filterscripts = ""  (string)
+[21:50:30] 
+[21:50:30] Server Plugins
+[21:50:30] --------------
+[21:50:30]  Loading plugin: sscanf
+[21:50:30] 
+[21:50:30]  ===============================
+[21:50:30] 
+[21:50:30]       sscanf plugin loaded.     
+[21:50:30] 
+[21:50:30]          Version: 2.13.8
+[21:50:30] 
+[21:50:30]    (c) 2022 Alex "Y_Less" Cole  
+[21:50:30] 
+[21:50:30]  ===============================
+[21:50:30] 
+[21:50:31]   Loaded.
+[21:50:31]  Loading plugin: streamer
+[21:50:31] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[21:50:31]   Loaded.
+[21:50:31]  Loaded 2 plugins.
+
+[21:50:31] 
+[21:50:31] Filterscripts
+[21:50:31] ---------------
+[21:50:31]   Loaded 0 filterscripts.
+
+[21:50:31] 
+----------------------------------
+[21:50:31] TELA DE LOGIN CARREGADA COM SUCESSO!
+[21:50:31] ----------------------------------
+
+[21:50:31] Number of vehicle models: 1
+[21:50:35] [connection] incoming connection: 127.0.0.1:62534 id: 0
+[21:50:36] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:00:49] filterscripts = ""  (string)
+[22:00:49] 
+[22:00:49] Server Plugins
+[22:00:49] --------------
+[22:00:49]  Loading plugin: sscanf
+[22:00:49] 
+[22:00:49]  ===============================
+[22:00:49] 
+[22:00:49]       sscanf plugin loaded.     
+[22:00:49] 
+[22:00:49]          Version: 2.13.8
+[22:00:49] 
+[22:00:49]    (c) 2022 Alex "Y_Less" Cole  
+[22:00:49] 
+[22:00:49]  ===============================
+[22:00:49] 
+[22:00:49]   Loaded.
+[22:00:49]  Loading plugin: streamer
+[22:00:49] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:00:49]   Loaded.
+[22:00:49]  Loaded 2 plugins.
+
+[22:00:49] 
+[22:00:49] Filterscripts
+[22:00:49] ---------------
+[22:00:49]   Loaded 0 filterscripts.
+
+[22:00:49] 
+----------------------------------
+[22:00:49] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:00:49] ----------------------------------
+
+[22:00:49] Number of vehicle models: 1
+[22:01:26] [connection] incoming connection: 127.0.0.1:62199 id: 0
+[22:01:27] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:15:08] filterscripts = ""  (string)
+[22:15:08] 
+[22:15:08] Server Plugins
+[22:15:08] --------------
+[22:15:08]  Loading plugin: sscanf
+[22:15:08] 
+[22:15:08]  ===============================
+[22:15:08] 
+[22:15:08]       sscanf plugin loaded.     
+[22:15:08] 
+[22:15:08]          Version: 2.13.8
+[22:15:08] 
+[22:15:08]    (c) 2022 Alex "Y_Less" Cole  
+[22:15:08] 
+[22:15:08]  ===============================
+[22:15:08] 
+[22:15:08]   Loaded.
+[22:15:08]  Loading plugin: streamer
+[22:15:08] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:15:08]   Loaded.
+[22:15:08]  Loaded 2 plugins.
+
+[22:15:08] 
+[22:15:08] Filterscripts
+[22:15:08] ---------------
+[22:15:08]   Loaded 0 filterscripts.
+
+[22:15:08] 
+----------------------------------
+[22:15:08] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:15:09] ----------------------------------
+
+[22:15:09] Number of vehicle models: 1
+[22:15:11] [connection] incoming connection: 127.0.0.1:59664 id: 0
+[22:15:11] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:27:15] filterscripts = ""  (string)
+[22:27:15] 
+[22:27:15] Server Plugins
+[22:27:15] --------------
+[22:27:15]  Loading plugin: sscanf
+[22:27:15] 
+[22:27:15]  ===============================
+[22:27:15] 
+[22:27:15]       sscanf plugin loaded.     
+[22:27:15] 
+[22:27:15]          Version: 2.13.8
+[22:27:15] 
+[22:27:15]    (c) 2022 Alex "Y_Less" Cole  
+[22:27:15] 
+[22:27:15]  ===============================
+[22:27:15] 
+[22:27:15]   Loaded.
+[22:27:15]  Loading plugin: streamer
+[22:27:15] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:27:15]   Loaded.
+[22:27:15]  Loaded 2 plugins.
+
+[22:27:15] 
+[22:27:15] Filterscripts
+[22:27:15] ---------------
+[22:27:15]   Loaded 0 filterscripts.
+
+[22:27:15] 
+----------------------------------
+[22:27:15] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:27:15] ----------------------------------
+
+[22:27:15] Number of vehicle models: 1
+[22:27:37] [connection] incoming connection: 127.0.0.1:52642 id: 0
+[22:27:38] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:31:10] filterscripts = ""  (string)
+[22:31:10] 
+[22:31:10] Server Plugins
+[22:31:10] --------------
+[22:31:10]  Loading plugin: sscanf
+[22:31:10] 
+[22:31:10]  ===============================
+[22:31:10] 
+[22:31:10]       sscanf plugin loaded.     
+[22:31:10] 
+[22:31:10]          Version: 2.13.8
+[22:31:10] 
+[22:31:10]    (c) 2022 Alex "Y_Less" Cole  
+[22:31:10] 
+[22:31:10]  ===============================
+[22:31:10] 
+[22:31:10]   Loaded.
+[22:31:10]  Loading plugin: streamer
+[22:31:10] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:31:10]   Loaded.
+[22:31:10]  Loaded 2 plugins.
+
+[22:31:10] 
+[22:31:10] Filterscripts
+[22:31:10] ---------------
+[22:31:10]   Loaded 0 filterscripts.
+
+[22:31:10] 
+----------------------------------
+[22:31:10] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:31:10] ----------------------------------
+
+[22:31:10] Number of vehicle models: 1
+[22:31:34] [connection] incoming connection: 127.0.0.1:51435 id: 0
+[22:31:34] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:36:07] filterscripts = ""  (string)
+[22:36:07] 
+[22:36:07] Server Plugins
+[22:36:07] --------------
+[22:36:07]  Loading plugin: sscanf
+[22:36:07] 
+[22:36:07]  ===============================
+[22:36:07] 
+[22:36:07]       sscanf plugin loaded.     
+[22:36:07] 
+[22:36:07]          Version: 2.13.8
+[22:36:07] 
+[22:36:07]    (c) 2022 Alex "Y_Less" Cole  
+[22:36:07] 
+[22:36:07]  ===============================
+[22:36:07] 
+[22:36:07]   Loaded.
+[22:36:07]  Loading plugin: streamer
+[22:36:07] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:36:07]   Loaded.
+[22:36:07]  Loaded 2 plugins.
+
+[22:36:08] 
+[22:36:08] Filterscripts
+[22:36:08] ---------------
+[22:36:08]   Loaded 0 filterscripts.
+
+[22:36:08] 
+----------------------------------
+[22:36:08] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:36:08] ----------------------------------
+
+[22:36:08] Number of vehicle models: 1
+[22:36:42] [connection] incoming connection: 127.0.0.1:50669 id: 0
+[22:36:42] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:39:25] filterscripts = ""  (string)
+[22:39:25] 
+[22:39:25] Server Plugins
+[22:39:25] --------------
+[22:39:25]  Loading plugin: sscanf
+[22:39:25] 
+[22:39:25]  ===============================
+[22:39:25] 
+[22:39:25]       sscanf plugin loaded.     
+[22:39:25] 
+[22:39:25]          Version: 2.13.8
+[22:39:25] 
+[22:39:25]    (c) 2022 Alex "Y_Less" Cole  
+[22:39:25] 
+[22:39:25]  ===============================
+[22:39:25] 
+[22:39:25]   Loaded.
+[22:39:25]  Loading plugin: streamer
+[22:39:25] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:39:25]   Loaded.
+[22:39:25]  Loaded 2 plugins.
+
+[22:39:25] 
+[22:39:25] Filterscripts
+[22:39:25] ---------------
+[22:39:25]   Loaded 0 filterscripts.
+
+[22:39:25] 
+----------------------------------
+[22:39:25] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:39:25] ----------------------------------
+
+[22:39:25] Number of vehicle models: 1
+[22:39:58] [connection] incoming connection: 127.0.0.1:53948 id: 0
+[22:39:58] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[22:40:18] [warning] dropping a split packet from client
+[22:40:18] [connection] incoming connection: 127.0.0.1:53949 id: 1
+[22:40:18] [warning] dropping a split packet from client
+[22:40:25] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:40:36] filterscripts = ""  (string)
+[22:40:36] 
+[22:40:36] Server Plugins
+[22:40:36] --------------
+[22:40:36]  Loading plugin: sscanf
+[22:40:36] 
+[22:40:36]  ===============================
+[22:40:36] 
+[22:40:36]       sscanf plugin loaded.     
+[22:40:36] 
+[22:40:36]          Version: 2.13.8
+[22:40:36] 
+[22:40:36]    (c) 2022 Alex "Y_Less" Cole  
+[22:40:36] 
+[22:40:36]  ===============================
+[22:40:36] 
+[22:40:36]   Loaded.
+[22:40:36]  Loading plugin: streamer
+[22:40:36] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:40:36]   Loaded.
+[22:40:37]  Loaded 2 plugins.
+
+[22:40:37] 
+[22:40:37] Filterscripts
+[22:40:37] ---------------
+[22:40:37]   Loaded 0 filterscripts.
+
+[22:40:37] 
+----------------------------------
+[22:40:37] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:40:37] ----------------------------------
+
+[22:40:37] Number of vehicle models: 1
+[22:41:23] [connection] incoming connection: 127.0.0.1:54412 id: 0
+[22:41:23] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:46:54] filterscripts = ""  (string)
+[22:46:54] 
+[22:46:54] Server Plugins
+[22:46:54] --------------
+[22:46:54]  Loading plugin: sscanf
+[22:46:54] 
+[22:46:54]  ===============================
+[22:46:54] 
+[22:46:54]       sscanf plugin loaded.     
+[22:46:54] 
+[22:46:54]          Version: 2.13.8
+[22:46:54] 
+[22:46:54]    (c) 2022 Alex "Y_Less" Cole  
+[22:46:54] 
+[22:46:54]  ===============================
+[22:46:54] 
+[22:46:54]   Loaded.
+[22:46:54]  Loading plugin: streamer
+[22:46:54] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:46:54]   Loaded.
+[22:46:54]  Loaded 2 plugins.
+
+[22:46:54] 
+[22:46:54] Filterscripts
+[22:46:54] ---------------
+[22:46:54]   Loaded 0 filterscripts.
+
+[22:46:54] 
+----------------------------------
+[22:46:54] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:46:54] ----------------------------------
+
+[22:46:54] Number of vehicle models: 1
+[22:47:28] [connection] incoming connection: 127.0.0.1:62471 id: 0
+[22:47:29] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[22:48:35] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:53:35] filterscripts = ""  (string)
+[22:53:35] 
+[22:53:35] Server Plugins
+[22:53:35] --------------
+[22:53:35]  Loading plugin: sscanf
+[22:53:35] 
+[22:53:35]  ===============================
+[22:53:35] 
+[22:53:35]       sscanf plugin loaded.     
+[22:53:35] 
+[22:53:35]          Version: 2.13.8
+[22:53:35] 
+[22:53:35]    (c) 2022 Alex "Y_Less" Cole  
+[22:53:35] 
+[22:53:35]  ===============================
+[22:53:35] 
+[22:53:35]   Loaded.
+[22:53:35]  Loading plugin: streamer
+[22:53:35] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:53:35]   Loaded.
+[22:53:35]  Loaded 2 plugins.
+
+[22:53:35] 
+[22:53:35] Filterscripts
+[22:53:35] ---------------
+[22:53:35]   Loaded 0 filterscripts.
+
+[22:53:35] 
+----------------------------------
+[22:53:35] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:53:35] ----------------------------------
+
+[22:53:35] Number of vehicle models: 1
+[22:54:00] [connection] incoming connection: 127.0.0.1:51402 id: 0
+[22:54:01] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[22:58:23] filterscripts = ""  (string)
+[22:58:23] 
+[22:58:23] Server Plugins
+[22:58:23] --------------
+[22:58:23]  Loading plugin: sscanf
+[22:58:23] 
+[22:58:23]  ===============================
+[22:58:23] 
+[22:58:23]       sscanf plugin loaded.     
+[22:58:23] 
+[22:58:23]          Version: 2.13.8
+[22:58:23] 
+[22:58:23]    (c) 2022 Alex "Y_Less" Cole  
+[22:58:23] 
+[22:58:23]  ===============================
+[22:58:23] 
+[22:58:23]   Loaded.
+[22:58:23]  Loading plugin: streamer
+[22:58:23] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[22:58:23]   Loaded.
+[22:58:23]  Loaded 2 plugins.
+
+[22:58:23] 
+[22:58:23] Filterscripts
+[22:58:23] ---------------
+[22:58:23]   Loaded 0 filterscripts.
+
+[22:58:23] 
+----------------------------------
+[22:58:23] TELA DE LOGIN CARREGADA COM SUCESSO!
+[22:58:23] ----------------------------------
+
+[22:58:23] Number of vehicle models: 1
+[22:58:40] [connection] incoming connection: 127.0.0.1:60490 id: 0
+[22:58:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:03:12] filterscripts = ""  (string)
+[23:03:12] 
+[23:03:12] Server Plugins
+[23:03:12] --------------
+[23:03:12]  Loading plugin: sscanf
+[23:03:12] 
+[23:03:12]  ===============================
+[23:03:12] 
+[23:03:12]       sscanf plugin loaded.     
+[23:03:12] 
+[23:03:12]          Version: 2.13.8
+[23:03:12] 
+[23:03:12]    (c) 2022 Alex "Y_Less" Cole  
+[23:03:12] 
+[23:03:12]  ===============================
+[23:03:12] 
+[23:03:12]   Loaded.
+[23:03:12]  Loading plugin: streamer
+[23:03:12] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[23:03:12]   Loaded.
+[23:03:12]  Loaded 2 plugins.
+
+[23:03:12] 
+[23:03:12] Filterscripts
+[23:03:12] ---------------
+[23:03:12]   Loaded 0 filterscripts.
+
+[23:03:12] 
+----------------------------------
+[23:03:12] TELA DE LOGIN CARREGADA COM SUCESSO!
+[23:03:12] ----------------------------------
+
+[23:03:12] Number of vehicle models: 1
+[23:03:37] [connection] incoming connection: 127.0.0.1:65087 id: 0
+[23:03:38] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:05:11] filterscripts = ""  (string)
+[23:05:11] 
+[23:05:11] Server Plugins
+[23:05:11] --------------
+[23:05:11]  Loading plugin: sscanf
+[23:05:11] 
+[23:05:11]  ===============================
+[23:05:11] 
+[23:05:11]       sscanf plugin loaded.     
+[23:05:11] 
+[23:05:11]          Version: 2.13.8
+[23:05:11] 
+[23:05:11]    (c) 2022 Alex "Y_Less" Cole  
+[23:05:11] 
+[23:05:11]  ===============================
+[23:05:11] 
+[23:05:11]   Loaded.
+[23:05:11]  Loading plugin: streamer
+[23:05:11] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[23:05:11]   Loaded.
+[23:05:11]  Loaded 2 plugins.
+
+[23:05:11] 
+[23:05:11] Filterscripts
+[23:05:11] ---------------
+[23:05:11]   Loaded 0 filterscripts.
+
+[23:05:11] 
+----------------------------------
+[23:05:11] TELA DE LOGIN CARREGADA COM SUCESSO!
+[23:05:11] ----------------------------------
+
+[23:05:11] Number of vehicle models: 1
+[23:05:45] [connection] incoming connection: 127.0.0.1:58469 id: 0
+[23:05:46] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[23:07:41] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:13:55] filterscripts = ""  (string)
+[23:13:55] 
+[23:13:55] Server Plugins
+[23:13:55] --------------
+[23:13:55]  Loading plugin: sscanf
+[23:13:55] 
+[23:13:55]  ===============================
+[23:13:55] 
+[23:13:55]       sscanf plugin loaded.     
+[23:13:55] 
+[23:13:55]          Version: 2.13.8
+[23:13:55] 
+[23:13:55]    (c) 2022 Alex "Y_Less" Cole  
+[23:13:55] 
+[23:13:55]  ===============================
+[23:13:55] 
+[23:13:55]   Loaded.
+[23:13:55]  Loading plugin: streamer
+[23:13:55] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[23:13:55]   Loaded.
+[23:13:55]  Loaded 2 plugins.
+
+[23:13:55] 
+[23:13:55] Filterscripts
+[23:13:55] ---------------
+[23:13:55]   Loaded 0 filterscripts.
+
+[23:13:56] 
+----------------------------------
+[23:13:56] TELA DE LOGIN CARREGADA COM SUCESSO!
+[23:13:56] ----------------------------------
+
+[23:13:56] Number of vehicle models: 1
+[23:13:59] [connection] incoming connection: 127.0.0.1:57068 id: 0
+[23:13:59] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:17:44] filterscripts = ""  (string)
+[23:17:44] 
+[23:17:44] Server Plugins
+[23:17:44] --------------
+[23:17:44]  Loading plugin: sscanf
+[23:17:44] 
+[23:17:44]  ===============================
+[23:17:44] 
+[23:17:44]       sscanf plugin loaded.     
+[23:17:44] 
+[23:17:44]          Version: 2.13.8
+[23:17:44] 
+[23:17:44]    (c) 2022 Alex "Y_Less" Cole  
+[23:17:44] 
+[23:17:44]  ===============================
+[23:17:44] 
+[23:17:44]   Loaded.
+[23:17:44]  Loading plugin: streamer
+[23:17:44] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[23:17:44]   Loaded.
+[23:17:44]  Loaded 2 plugins.
+
+[23:17:44] 
+[23:17:44] Filterscripts
+[23:17:44] ---------------
+[23:17:44]   Loaded 0 filterscripts.
+
+[23:17:44] 
+----------------------------------
+[23:17:44] TELA DE LOGIN CARREGADA COM SUCESSO!
+[23:17:44] ----------------------------------
+
+[23:17:44] Number of vehicle models: 1
+[23:18:06] [connection] incoming connection: 127.0.0.1:55330 id: 0
+[23:18:06] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:27:50] filterscripts = ""  (string)
+[00:27:50] 
+[00:27:50] Server Plugins
+[00:27:50] --------------
+[00:27:50]  Loading plugin: sscanf
+[00:27:50] 
+[00:27:50]  ===============================
+
+[00:27:50] 
+[00:27:50]       sscanf plugin loaded.     
+[00:27:50] 
+[00:27:50]          Version: 2.13.8
+[00:27:50] 
+[00:27:50]    (c) 2022 Alex "Y_Less" Cole  
+[00:27:50] 
+[00:27:50]  ===============================
+[00:27:50] 
+[00:27:50]   Loaded.
+[00:27:50]  Loading plugin: streamer
+----------
+[00:27:50] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:27:50] filterscripts = ""  (string)
+[00:27:50] 
+[00:27:50]   Loaded.
+[00:27:50] Server Plugins
+[00:27:50] --------------
+[00:27:50]  Loading plugin: sscanf
+[00:27:50] 
+[00:27:50]  ===============================
+[00:27:50] 
+[00:27:50]       sscanf plugin loaded.     
+[00:27:50] 
+[00:27:50]          Version: 2.13.8
+[00:27:50] 
+[00:27:50]    (c) 2022 Alex "Y_Less" Cole  
+[00:27:50] 
+[00:27:50]  ===============================
+[00:27:50] 
+[00:27:50]   Loaded.
+[00:27:50]  Loading plugin: streamer
+[00:27:50] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[00:27:50]   Loaded.
+[00:27:50]  Loaded 2 plugins.
+
+[00:27:50] 
+[00:27:50] Filterscripts
+[00:27:50] ---------------
+[00:27:50]   Loaded 0 filterscripts.
+
+[00:27:50] 
+----------------------------------
+[00:27:50] TELA DE LOGIN CARREGADA COM SUCESSO!
+[00:27:50]  Loaded 2 plugins.
+
+[00:27:50] ----------------------------------
+
+[00:27:50] Number of vehicle models: 1
+[00:27:50] 
+[00:27:50] Filterscripts
+[00:27:50] ---------------
+[00:27:50]   Loaded 0 filterscripts.
+
+[00:27:51] 
+----------------------------------
+[00:27:51] TELA DE LOGIN CARREGADA COM SUCESSO!
+[00:27:51] ----------------------------------
+
+[00:27:51] Number of vehicle models: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:28:00] filterscripts = ""  (string)
+[00:28:00] 
+[00:28:00] Server Plugins
+[00:28:00] --------------
+[00:28:00]  Loading plugin: sscanf
+[00:28:00] 
+[00:28:00]  ===============================
+[00:28:00] 
+[00:28:00]       sscanf plugin loaded.     
+[00:28:00] 
+[00:28:00]          Version: 2.13.8
+[00:28:00] 
+[00:28:00]    (c) 2022 Alex "Y_Less" Cole  
+[00:28:00] 
+[00:28:00]  ===============================
+[00:28:00] 
+[00:28:00]   Loaded.
+[00:28:00]  Loading plugin: streamer
+[00:28:00] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[00:28:00]   Loaded.
+[00:28:00]  Loaded 2 plugins.
+
+[00:28:00] 
+[00:28:01] Filterscripts
+[00:28:01] ---------------
+[00:28:01]   Loaded 0 filterscripts.
+
+[00:28:01] 
+----------------------------------
+[00:28:01] TELA DE LOGIN CARREGADA COM SUCESSO!
+[00:28:01] ----------------------------------
+
+[00:28:01] Number of vehicle models: 1
+[00:28:12] [connection] incoming connection: 127.0.0.1:63003 id: 0
+[00:28:12] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[00:31:31] filterscripts = ""  (string)
+[00:31:31] 
+[00:31:31] Server Plugins
+[00:31:31] --------------
+[00:31:31]  Loading plugin: sscanf
+[00:31:31] 
+[00:31:31]  ===============================
+[00:31:31] 
+[00:31:31]       sscanf plugin loaded.     
+[00:31:31] 
+[00:31:31]          Version: 2.13.8
+[00:31:31] 
+[00:31:31]    (c) 2022 Alex "Y_Less" Cole  
+[00:31:31] 
+[00:31:31]  ===============================
+[00:31:31] 
+[00:31:31]   Loaded.
+[00:31:31]  Loading plugin: streamer
+[00:31:31] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[00:31:31]   Loaded.
+[00:31:31]  Loaded 2 plugins.
+
+[00:31:31] 
+[00:31:31] Filterscripts
+[00:31:31] ---------------
+[00:31:31]   Loaded 0 filterscripts.
+
+[00:31:31] 
+----------------------------------
+[00:31:31] TELA DE LOGIN CARREGADA COM SUCESSO!
+[00:31:31] ----------------------------------
+
+[00:31:31] Number of vehicle models: 1
+[00:31:35] [connection] incoming connection: 127.0.0.1:63547 id: 0
+[00:31:35] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:28:12] filterscripts = ""  (string)
+[09:28:12] 
+[09:28:12] Server Plugins
+[09:28:12] --------------
+[09:28:12]  Loading plugin: sscanf
+[09:28:12] 
+[09:28:12]  ===============================
+[09:28:12] 
+[09:28:12]       sscanf plugin loaded.     
+[09:28:12] 
+[09:28:12]          Version: 2.13.8
+[09:28:12] 
+[09:28:12]    (c) 2022 Alex "Y_Less" Cole  
+[09:28:12] 
+[09:28:12]  ===============================
+[09:28:12] 
+[09:28:12]   Loaded.
+[09:28:12]  Loading plugin: streamer
+[09:28:12] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[09:28:12]   Loaded.
+[09:28:12]  Loaded 2 plugins.
+
+[09:28:12] 
+[09:28:12] Filterscripts
+[09:28:12] ---------------
+[09:28:12]   Loaded 0 filterscripts.
+
+[09:28:12] 
+----------------------------------
+[09:28:13] TELA DE LOGIN CARREGADA COM SUCESSO!
+[09:28:13] ----------------------------------
+
+[09:28:13] Number of vehicle models: 1
+[09:29:06] [connection] incoming connection: 127.0.0.1:53030 id: 0
+[09:29:07] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:32:57] filterscripts = ""  (string)
+[09:32:57] 
+[09:32:57] Server Plugins
+[09:32:57] --------------
+[09:32:57]  Loading plugin: sscanf
+[09:32:57] 
+[09:32:57]  ===============================
+[09:32:57] 
+[09:32:57]       sscanf plugin loaded.     
+[09:32:57] 
+[09:32:57]          Version: 2.13.8
+[09:32:57] 
+[09:32:57]    (c) 2022 Alex "Y_Less" Cole  
+[09:32:57] 
+[09:32:57]  ===============================
+[09:32:57] 
+[09:32:57]   Loaded.
+[09:32:57]  Loading plugin: streamer
+[09:32:57] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[09:32:57]   Loaded.
+[09:32:57]  Loaded 2 plugins.
+
+[09:32:58] 
+[09:32:58] Filterscripts
+[09:32:58] ---------------
+[09:32:58]   Loaded 0 filterscripts.
+
+[09:32:58] 
+----------------------------------
+[09:32:58] TELA DE LOGIN CARREGADA COM SUCESSO!
+[09:32:58] ----------------------------------
+
+[09:32:58] Number of vehicle models: 1
+[09:33:17] [connection] incoming connection: 127.0.0.1:64754 id: 0
+[09:33:17] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:41:44] filterscripts = ""  (string)
+[09:41:44] 
+[09:41:44] Server Plugins
+[09:41:44] --------------
+[09:41:44]  Loading plugin: sscanf
+[09:41:44] 
+[09:41:44]  ===============================
+[09:41:44] 
+[09:41:44]       sscanf plugin loaded.     
+[09:41:44] 
+[09:41:44]          Version: 2.13.8
+[09:41:44] 
+[09:41:44]    (c) 2022 Alex "Y_Less" Cole  
+[09:41:44] 
+[09:41:44]  ===============================
+[09:41:44] 
+[09:41:44]   Loaded.
+[09:41:44]  Loading plugin: streamer
+[09:41:44] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[09:41:44]   Loaded.
+[09:41:44]  Loaded 2 plugins.
+
+[09:41:44] 
+[09:41:44] Filterscripts
+[09:41:44] ---------------
+[09:41:44]   Loaded 0 filterscripts.
+
+[09:41:44] 
+----------------------------------
+[09:41:44] TELA DE LOGIN CARREGADA COM SUCESSO!
+[09:41:44] ----------------------------------
+
+[09:41:44] Number of vehicle models: 1
+[09:41:59] [connection] incoming connection: 127.0.0.1:60377 id: 0
+[09:41:59] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:44:11] filterscripts = ""  (string)
+[09:44:11] 
+[09:44:11] Server Plugins
+[09:44:11] --------------
+[09:44:11]  Loading plugin: sscanf
+[09:44:11] 
+[09:44:11]  ===============================
+[09:44:11] 
+[09:44:11]       sscanf plugin loaded.     
+[09:44:11] 
+[09:44:11]          Version: 2.13.8
+[09:44:11] 
+[09:44:11]    (c) 2022 Alex "Y_Less" Cole  
+[09:44:11] 
+[09:44:11]  ===============================
+[09:44:11] 
+[09:44:11]   Loaded.
+[09:44:11]  Loading plugin: streamer
+[09:44:11] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[09:44:11]   Loaded.
+[09:44:11]  Loaded 2 plugins.
+
+[09:44:11] 
+[09:44:11] Filterscripts
+[09:44:11] ---------------
+[09:44:11]   Loaded 0 filterscripts.
+
+[09:44:11] 
+----------------------------------
+[09:44:11] TELA DE LOGIN CARREGADA COM SUCESSO!
+[09:44:11] ----------------------------------
+
+[09:44:11] Number of vehicle models: 1
+[09:44:26] [connection] incoming connection: 127.0.0.1:60470 id: 0
+[09:44:26] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[09:47:12] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:50:49] filterscripts = ""  (string)
+[09:51:04] 
+[09:51:15] Server Plugins
+[09:51:15] --------------
+[09:51:15]  Loading plugin: sscanf
+[09:51:16] 
+[09:51:16]  ===============================
+[09:51:16] 
+[09:51:16]       sscanf plugin loaded.     
+[09:51:16] 
+[09:51:16]          Version: 2.13.8
+[09:51:16] 
+[09:51:16]    (c) 2022 Alex "Y_Less" Cole  
+[09:51:16] 
+[09:51:16]  ===============================
+[09:51:16] 
+[09:51:16]   Loaded.
+[09:51:16]  Loading plugin: streamer
+[09:51:17] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[09:51:18]   Loaded.
+[09:51:18]  Loaded 2 plugins.
+
+[09:51:18] 
+[09:51:18] Filterscripts
+[09:51:18] ---------------
+[09:51:18]   Loaded 0 filterscripts.
+
+[09:51:18] 
+----------------------------------
+[09:51:18] TELA DE LOGIN CARREGADA COM SUCESSO!
+[09:51:18] ----------------------------------
+
+[09:51:19] Number of vehicle models: 1
+[09:51:19] [connection] incoming connection: 127.0.0.1:62881 id: 0
+[09:51:50] [connection] incoming connection: 127.0.0.1:65012 id: 0
+[09:51:51] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[09:54:04] [part] Poli_Rafax has left the server (0:0)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[09:54:42] filterscripts = ""  (string)
+[09:54:42] 
+[09:54:42] Server Plugins
+[09:54:42] --------------
+[09:54:42]  Loading plugin: sscanf
+[09:54:42] 
+[09:54:42]  ===============================
+[09:54:42] 
+[09:54:42]       sscanf plugin loaded.     
+[09:54:42] 
+[09:54:42]          Version: 2.13.8
+[09:54:42] 
+[09:54:42]    (c) 2022 Alex "Y_Less" Cole  
+[09:54:42] 
+[09:54:42]  ===============================
+[09:54:42] 
+[09:54:42]   Loaded.
+[09:54:42]  Loading plugin: streamer
+[09:54:42] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[09:54:42]   Loaded.
+[09:54:42]  Loaded 2 plugins.
+
+[09:54:42] 
+[09:54:42] Filterscripts
+[09:54:42] ---------------
+[09:54:42]   Loaded 0 filterscripts.
+
+[09:54:42] 
+----------------------------------
+[09:54:42] TELA DE LOGIN CARREGADA COM SUCESSO!
+[09:54:42] ----------------------------------
+
+[09:54:42] Number of vehicle models: 1
+[09:55:15] [connection] incoming connection: 127.0.0.1:54440 id: 0
+[09:55:16] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[10:00:58] [part] Poli_Rafax has left the server (0:0)
+[10:01:27] [connection] incoming connection: 127.0.0.1:49887 id: 0
+[10:01:27] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[10:01:53] [part] Poli_Rafax has left the server (0:0)
+[10:02:11] [connection] incoming connection: 127.0.0.1:49882 id: 0
+[10:02:12] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:03:40] filterscripts = ""  (string)
+[10:03:40] 
+[10:03:40] Server Plugins
+[10:03:40] --------------
+[10:03:40]  Loading plugin: sscanf
+[10:03:40] 
+[10:03:40]  ===============================
+[10:03:40] 
+[10:03:40]       sscanf plugin loaded.     
+[10:03:40] 
+[10:03:40]          Version: 2.13.8
+[10:03:40] 
+[10:03:40]    (c) 2022 Alex "Y_Less" Cole  
+[10:03:40] 
+[10:03:40]  ===============================
+[10:03:40] 
+[10:03:40]   Loaded.
+[10:03:40]  Loading plugin: streamer
+[10:03:40] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[10:03:40]   Loaded.
+[10:03:40]  Loaded 2 plugins.
+
+[10:03:41] 
+[10:03:41] Filterscripts
+[10:03:41] ---------------
+[10:03:41]   Loaded 0 filterscripts.
+
+[10:03:41] 
+----------------------------------
+[10:03:41] TELA DE LOGIN CARREGADA COM SUCESSO!
+[10:03:41] ----------------------------------
+
+[10:03:41] Number of vehicle models: 1
+[10:03:45] [connection] incoming connection: 127.0.0.1:55272 id: 0
+[10:03:45] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:25:10] filterscripts = ""  (string)
+[10:25:10] 
+[10:25:10] Server Plugins
+[10:25:10] --------------
+[10:25:10]  Loading plugin: sscanf
+[10:25:10] 
+[10:25:10]  ===============================
+[10:25:10] 
+[10:25:10]       sscanf plugin loaded.     
+[10:25:10] 
+[10:25:10]          Version: 2.13.8
+[10:25:10] 
+[10:25:10]    (c) 2022 Alex "Y_Less" Cole  
+[10:25:10] 
+[10:25:10]  ===============================
+[10:25:10] 
+[10:25:10]   Loaded.
+[10:25:10]  Loading plugin: streamer
+[10:25:10] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[10:25:10]   Loaded.
+[10:25:10]  Loaded 2 plugins.
+
+[10:25:10] 
+[10:25:10] Filterscripts
+[10:25:10] ---------------
+[10:25:10]   Loaded 0 filterscripts.
+
+[10:25:10] 
+----------------------------------
+[10:25:10] TELA DE LOGIN CARREGADA COM SUCESSO!
+[10:25:10] ----------------------------------
+
+[10:25:10] Number of vehicle models: 1
+[10:25:21] [connection] incoming connection: 127.0.0.1:52244 id: 0
+[10:25:22] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:30:02] filterscripts = ""  (string)
+[10:30:02] 
+[10:30:02] Server Plugins
+[10:30:02] --------------
+[10:30:02]  Loading plugin: sscanf
+[10:30:02] 
+[10:30:02]  ===============================
+[10:30:02] 
+[10:30:02]       sscanf plugin loaded.     
+[10:30:02] 
+[10:30:02]          Version: 2.13.8
+[10:30:02] 
+[10:30:02]    (c) 2022 Alex "Y_Less" Cole  
+[10:30:02] 
+[10:30:02]  ===============================
+[10:30:02] 
+[10:30:02]   Loaded.
+[10:30:02]  Loading plugin: streamer
+[10:30:02] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[10:30:02]   Loaded.
+[10:30:02]  Loaded 2 plugins.
+
+[10:30:02] 
+[10:30:02] Filterscripts
+[10:30:02] ---------------
+[10:30:02]   Loaded 0 filterscripts.
+
+[10:30:02] 
+----------------------------------
+[10:30:02] TELA DE LOGIN CARREGADA COM SUCESSO!
+[10:30:02] ----------------------------------
+
+[10:30:02] Number of vehicle models: 1
+[10:31:00] [connection] incoming connection: 127.0.0.1:58222 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:31:11] filterscripts = ""  (string)
+[10:31:11] 
+[10:31:11] Server Plugins
+[10:31:11] --------------
+[10:31:11]  Loading plugin: sscanf
+[10:31:11] 
+[10:31:11]  ===============================
+[10:31:11] 
+[10:31:11]       sscanf plugin loaded.     
+[10:31:11] 
+[10:31:11]          Version: 2.13.8
+[10:31:11] 
+[10:31:11]    (c) 2022 Alex "Y_Less" Cole  
+[10:31:11] 
+[10:31:11]  ===============================
+[10:31:11] 
+[10:31:11]   Loaded.
+[10:31:11]  Loading plugin: streamer
+[10:31:11] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[10:31:11]   Loaded.
+[10:31:11]  Loaded 2 plugins.
+
+[10:31:11] 
+[10:31:11] Filterscripts
+[10:31:11] ---------------
+[10:31:11]   Loaded 0 filterscripts.
+
+[10:31:11] 
+----------------------------------
+[10:31:11] TELA DE LOGIN CARREGADA COM SUCESSO!
+[10:31:11] ----------------------------------
+
+[10:31:11] Number of vehicle models: 1
+[10:31:15] [connection] incoming connection: 127.0.0.1:57536 id: 0
+[10:31:21] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[10:31:56] [part] Poli_Rafax has left the server (0:0)
+[10:32:20] [connection] incoming connection: 127.0.0.1:60171 id: 0
+[10:32:20] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:38:42] filterscripts = ""  (string)
+[10:38:42] 
+[10:38:42] Server Plugins
+[10:38:42] --------------
+[10:38:42]  Loading plugin: sscanf
+[10:38:42] 
+[10:38:42]  ===============================
+[10:38:42] 
+[10:38:42]       sscanf plugin loaded.     
+[10:38:42] 
+[10:38:42]          Version: 2.13.8
+[10:38:42] 
+[10:38:42]    (c) 2022 Alex "Y_Less" Cole  
+[10:38:42] 
+[10:38:42]  ===============================
+[10:38:42] 
+[10:38:42]   Loaded.
+[10:38:42]  Loading plugin: streamer
+[10:38:42] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[10:38:42]   Loaded.
+[10:38:42]  Loaded 2 plugins.
+
+[10:38:42] 
+[10:38:42] Filterscripts
+[10:38:42] ---------------
+[10:38:42]   Loaded 0 filterscripts.
+
+[10:38:42] 
+----------------------------------
+[10:38:42] TELA DE LOGIN CARREGADA COM SUCESSO!
+[10:38:42] ----------------------------------
+
+[10:38:42] Number of vehicle models: 1
+[10:39:13] [connection] incoming connection: 127.0.0.1:57076 id: 0
+[10:39:14] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:44:41] filterscripts = ""  (string)
+[10:44:41] 
+[10:44:41] Server Plugins
+[10:44:41] --------------
+[10:44:41]  Loading plugin: sscanf
+[10:44:41] 
+[10:44:41]  ===============================
+[10:44:41] 
+[10:44:41]       sscanf plugin loaded.     
+[10:44:41] 
+[10:44:41]          Version: 2.13.8
+[10:44:41] 
+[10:44:41]    (c) 2022 Alex "Y_Less" Cole  
+[10:44:41] 
+[10:44:41]  ===============================
+[10:44:41] 
+[10:44:41]   Loaded.
+[10:44:41]  Loading plugin: streamer
+[10:44:41] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[10:44:41]   Loaded.
+[10:44:41]  Loaded 2 plugins.
+
+[10:44:41] 
+[10:44:41] Filterscripts
+[10:44:41] ---------------
+[10:44:41]   Loaded 0 filterscripts.
+
+[10:44:41] 
+----------------------------------
+[10:44:41] TELA DE LOGIN CARREGADA COM SUCESSO!
+[10:44:41] ----------------------------------
+
+[10:44:41] Number of vehicle models: 1
+[10:45:11] [connection] incoming connection: 127.0.0.1:60567 id: 0
+[10:45:12] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:03:54] filterscripts = ""  (string)
+[11:03:54] 
+[11:03:54] Server Plugins
+[11:03:54] --------------
+[11:03:54]  Loading plugin: sscanf
+[11:03:54] 
+[11:03:54]  ===============================
+[11:03:54] 
+[11:03:54]       sscanf plugin loaded.     
+[11:03:54] 
+[11:03:54]          Version: 2.13.8
+[11:03:54] 
+[11:03:54]    (c) 2022 Alex "Y_Less" Cole  
+[11:03:54] 
+[11:03:54]  ===============================
+[11:03:54] 
+[11:03:54]   Loaded.
+[11:03:54]  Loading plugin: streamer
+[11:03:54] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:03:54]   Loaded.
+[11:03:54]  Loaded 2 plugins.
+
+[11:03:54] 
+[11:03:54] Filterscripts
+[11:03:54] ---------------
+[11:03:54]   Loaded 0 filterscripts.
+
+[11:03:54] 
+----------------------------------
+[11:03:54] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:03:54] ----------------------------------
+
+[11:03:54] Number of vehicle models: 1
+[11:04:32] [connection] incoming connection: 127.0.0.1:53184 id: 0
+[11:04:32] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:13:21] filterscripts = ""  (string)
+[11:13:21] 
+[11:13:21] Server Plugins
+[11:13:21] --------------
+[11:13:21]  Loading plugin: sscanf
+[11:13:21] 
+[11:13:21]  ===============================
+[11:13:21] 
+[11:13:21]       sscanf plugin loaded.     
+[11:13:21] 
+[11:13:21]          Version: 2.13.8
+[11:13:21] 
+[11:13:21]    (c) 2022 Alex "Y_Less" Cole  
+[11:13:21] 
+[11:13:21]  ===============================
+[11:13:21] 
+[11:13:21]   Loaded.
+[11:13:21]  Loading plugin: streamer
+[11:13:21] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:13:21]   Loaded.
+[11:13:21]  Loaded 2 plugins.
+
+[11:13:21] 
+[11:13:21] Filterscripts
+[11:13:21] ---------------
+[11:13:21]   Loaded 0 filterscripts.
+
+[11:13:21] 
+----------------------------------
+[11:13:21] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:13:21] ----------------------------------
+
+[11:13:21] Number of vehicle models: 1
+[11:14:40] [connection] incoming connection: 127.0.0.1:64265 id: 0
+[11:14:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:19:35] filterscripts = ""  (string)
+[11:19:35] 
+[11:19:35] Server Plugins
+[11:19:35] --------------
+[11:19:35]  Loading plugin: sscanf
+[11:19:35] 
+[11:19:35]  ===============================
+[11:19:35] 
+[11:19:35]       sscanf plugin loaded.     
+[11:19:35] 
+[11:19:35]          Version: 2.13.8
+[11:19:35] 
+[11:19:35]    (c) 2022 Alex "Y_Less" Cole  
+[11:19:35] 
+[11:19:35]  ===============================
+[11:19:35] 
+[11:19:35]   Loaded.
+[11:19:35]  Loading plugin: streamer
+[11:19:35] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:19:35]   Loaded.
+[11:19:35]  Loaded 2 plugins.
+
+[11:19:35] 
+[11:19:35] Filterscripts
+[11:19:35] ---------------
+[11:19:35]   Loaded 0 filterscripts.
+
+[11:19:35] 
+----------------------------------
+[11:19:35] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:19:35] ----------------------------------
+
+[11:19:35] Number of vehicle models: 1
+[11:20:11] [connection] incoming connection: 127.0.0.1:57582 id: 0
+[11:20:12] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[11:21:06] [part] Poli_Rafax has left the server (0:0)
+[11:21:15] [connection] incoming connection: 127.0.0.1:59228 id: 0
+[11:21:15] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:22:53] filterscripts = ""  (string)
+[11:22:53] 
+[11:22:53] Server Plugins
+[11:22:53] --------------
+[11:22:53]  Loading plugin: sscanf
+[11:22:53] 
+[11:22:53]  ===============================
+[11:22:53] 
+[11:22:53]       sscanf plugin loaded.     
+[11:22:53] 
+[11:22:53]          Version: 2.13.8
+[11:22:53] 
+[11:22:53]    (c) 2022 Alex "Y_Less" Cole  
+[11:22:53] 
+[11:22:53]  ===============================
+[11:22:53] 
+[11:22:53]   Loaded.
+[11:22:53]  Loading plugin: streamer
+[11:22:53] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:22:53]   Loaded.
+[11:22:53]  Loaded 2 plugins.
+
+[11:22:53] 
+[11:22:53] Filterscripts
+[11:22:53] ---------------
+[11:22:53]   Loaded 0 filterscripts.
+
+[11:22:53] 
+----------------------------------
+[11:22:53] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:22:53] ----------------------------------
+
+[11:22:53] Number of vehicle models: 1
+[11:23:25] [connection] incoming connection: 127.0.0.1:52114 id: 0
+[11:23:25] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:25:01] filterscripts = ""  (string)
+[11:25:01] 
+[11:25:01] Server Plugins
+[11:25:01] --------------
+[11:25:01]  Loading plugin: sscanf
+[11:25:01] 
+[11:25:01]  ===============================
+[11:25:01] 
+[11:25:01]       sscanf plugin loaded.     
+[11:25:01] 
+[11:25:01]          Version: 2.13.8
+[11:25:01] 
+[11:25:01]    (c) 2022 Alex "Y_Less" Cole  
+[11:25:01] 
+[11:25:01]  ===============================
+[11:25:01] 
+[11:25:01]   Loaded.
+[11:25:01]  Loading plugin: streamer
+[11:25:01] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:25:01]   Loaded.
+[11:25:01]  Loaded 2 plugins.
+
+[11:25:01] 
+[11:25:01] Filterscripts
+[11:25:01] ---------------
+[11:25:01]   Loaded 0 filterscripts.
+
+[11:25:01] 
+----------------------------------
+[11:25:01] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:25:01] ----------------------------------
+
+[11:25:01] Number of vehicle models: 1
+[11:25:05] [connection] incoming connection: 127.0.0.1:54056 id: 0
+[11:25:05] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:37:36] filterscripts = ""  (string)
+[11:37:36] 
+[11:37:36] Server Plugins
+[11:37:36] --------------
+[11:37:36]  Loading plugin: sscanf
+[11:37:36] 
+[11:37:36]  ===============================
+[11:37:36] 
+[11:37:36]       sscanf plugin loaded.     
+[11:37:36] 
+[11:37:36]          Version: 2.13.8
+[11:37:36] 
+[11:37:36]    (c) 2022 Alex "Y_Less" Cole  
+[11:37:36] 
+[11:37:36]  ===============================
+[11:37:36] 
+[11:37:36]   Loaded.
+[11:37:36]  Loading plugin: streamer
+[11:37:36] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:37:36]   Loaded.
+[11:37:36]  Loaded 2 plugins.
+
+[11:37:37] 
+[11:37:37] Filterscripts
+[11:37:37] ---------------
+[11:37:37]   Loaded 0 filterscripts.
+
+[11:37:37] 
+----------------------------------
+[11:37:37] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:37:37] ----------------------------------
+
+[11:37:37] Number of vehicle models: 1
+[11:38:17] [connection] incoming connection: 127.0.0.1:60918 id: 0
+[11:38:17] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:42:59] filterscripts = ""  (string)
+[11:42:59] 
+[11:42:59] Server Plugins
+[11:42:59] --------------
+[11:42:59]  Loading plugin: sscanf
+[11:42:59] 
+[11:42:59]  ===============================
+[11:42:59] 
+[11:42:59]       sscanf plugin loaded.     
+[11:42:59] 
+[11:42:59]          Version: 2.13.8
+[11:42:59] 
+[11:42:59]    (c) 2022 Alex "Y_Less" Cole  
+[11:42:59] 
+[11:42:59]  ===============================
+[11:42:59] 
+[11:42:59]   Loaded.
+[11:42:59]  Loading plugin: streamer
+[11:42:59] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:42:59]   Loaded.
+[11:42:59]  Loaded 2 plugins.
+
+[11:42:59] 
+[11:42:59] Filterscripts
+[11:42:59] ---------------
+[11:42:59]   Loaded 0 filterscripts.
+
+[11:42:59] 
+----------------------------------
+[11:42:59] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:42:59] ----------------------------------
+
+[11:42:59] Number of vehicle models: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:43:15] filterscripts = ""  (string)
+[11:43:15] 
+[11:43:15] Server Plugins
+[11:43:15] --------------
+[11:43:15]  Loading plugin: sscanf
+[11:43:15] 
+[11:43:15]  ===============================
+[11:43:15] 
+[11:43:15]       sscanf plugin loaded.     
+[11:43:15] 
+[11:43:15]          Version: 2.13.8
+[11:43:15] 
+[11:43:15]    (c) 2022 Alex "Y_Less" Cole  
+[11:43:15] 
+[11:43:15]  ===============================
+[11:43:15] 
+[11:43:15]   Loaded.
+[11:43:15]  Loading plugin: streamer
+[11:43:16] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:43:16]   Loaded.
+[11:43:16]  Loaded 2 plugins.
+
+[11:43:16] 
+[11:43:16] Filterscripts
+[11:43:16] ---------------
+[11:43:16]   Loaded 0 filterscripts.
+
+[11:43:16] 
+----------------------------------
+[11:43:16] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:43:16] ----------------------------------
+
+[11:43:16] Number of vehicle models: 1
+[11:43:34] [connection] incoming connection: 127.0.0.1:58161 id: 0
+[11:43:34] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[11:43:44] [part] Poli_Rafax has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:47:30] filterscripts = ""  (string)
+[11:47:30] 
+[11:47:30] Server Plugins
+[11:47:30] --------------
+[11:47:30]  Loading plugin: sscanf
+[11:47:30] 
+[11:47:30]  ===============================
+[11:47:30] 
+[11:47:30]       sscanf plugin loaded.     
+[11:47:30] 
+[11:47:30]          Version: 2.13.8
+[11:47:30] 
+[11:47:30]    (c) 2022 Alex "Y_Less" Cole  
+[11:47:30] 
+[11:47:30]  ===============================
+[11:47:30] 
+[11:47:30]   Loaded.
+[11:47:30]  Loading plugin: streamer
+[11:47:30] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:47:30]   Loaded.
+[11:47:30]  Loaded 2 plugins.
+
+[11:47:30] 
+[11:47:30] Filterscripts
+[11:47:30] ---------------
+[11:47:30]   Loaded 0 filterscripts.
+
+[11:47:30] 
+----------------------------------
+[11:47:30] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:47:30] ----------------------------------
+
+[11:47:30] Number of vehicle models: 1
+[11:48:02] [connection] incoming connection: 127.0.0.1:65299 id: 0
+[11:48:03] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[11:48:20] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[11:48:29] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[11:48:36] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[11:48:43] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[11:48:43] [part] Poli_Rafax has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:54:49] filterscripts = ""  (string)
+[11:54:49] 
+[11:54:49] Server Plugins
+[11:54:49] --------------
+[11:54:49]  Loading plugin: sscanf
+[11:54:49] 
+[11:54:49]  ===============================
+[11:54:49] 
+[11:54:49]       sscanf plugin loaded.     
+[11:54:49] 
+[11:54:49]          Version: 2.13.8
+[11:54:49] 
+[11:54:49]    (c) 2022 Alex "Y_Less" Cole  
+[11:54:49] 
+[11:54:49]  ===============================
+[11:54:49] 
+[11:54:49]   Loaded.
+[11:54:49]  Loading plugin: streamer
+[11:54:49] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:54:49]   Loaded.
+[11:54:49]  Loaded 2 plugins.
+
+[11:54:49] 
+[11:54:49] Filterscripts
+[11:54:49] ---------------
+[11:54:49]   Loaded 0 filterscripts.
+
+[11:54:49] 
+----------------------------------
+[11:54:49] TELA DE LOGIN CARREGADA COM SUCESSO!
+[11:54:49] ----------------------------------
+
+[11:54:49] Number of vehicle models: 1
+[11:55:25] [connection] incoming connection: 127.0.0.1:61521 id: 0
+[11:55:25] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[11:55:37] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[11:55:43] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[11:55:43] [part] Poli_Rafax has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:59:59] filterscripts = ""  (string)
+[11:59:59] 
+[11:59:59] Server Plugins
+[11:59:59] --------------
+[11:59:59]  Loading plugin: sscanf
+[11:59:59] 
+[11:59:59]  ===============================
+[11:59:59] 
+[11:59:59]       sscanf plugin loaded.     
+[11:59:59] 
+[11:59:59]          Version: 2.13.8
+[11:59:59] 
+[11:59:59]    (c) 2022 Alex "Y_Less" Cole  
+[11:59:59] 
+[11:59:59]  ===============================
+[11:59:59] 
+[11:59:59]   Loaded.
+[11:59:59]  Loading plugin: streamer
+[11:59:59] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[11:59:59]   Loaded.
+[11:59:59]  Loaded 2 plugins.
+
+[11:59:59] I couldn't load any gamemode scripts. Please verify your server.cfg
+[11:59:59] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:00:34] filterscripts = ""  (string)
+[12:00:34] 
+[12:00:34] Server Plugins
+[12:00:34] --------------
+[12:00:34]  Loading plugin: sscanf
+[12:00:34] 
+[12:00:34]  ===============================
+[12:00:34] 
+[12:00:34]       sscanf plugin loaded.     
+[12:00:34] 
+[12:00:34]          Version: 2.13.8
+[12:00:34] 
+[12:00:34]    (c) 2022 Alex "Y_Less" Cole  
+[12:00:34] 
+[12:00:34]  ===============================
+[12:00:34] 
+[12:00:34]   Loaded.
+[12:00:34]  Loading plugin: streamer
+[12:00:34] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:00:34]   Loaded.
+[12:00:34]  Loaded 2 plugins.
+
+[12:00:34] I couldn't load any gamemode scripts. Please verify your server.cfg
+[12:00:34] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:00:36] filterscripts = ""  (string)
+[12:00:36] 
+[12:00:36] Server Plugins
+[12:00:36] --------------
+[12:00:36]  Loading plugin: sscanf
+[12:00:36] 
+[12:00:36]  ===============================
+[12:00:36] 
+[12:00:36]       sscanf plugin loaded.     
+[12:00:36] 
+[12:00:36]          Version: 2.13.8
+[12:00:36] 
+[12:00:36]    (c) 2022 Alex "Y_Less" Cole  
+[12:00:36] 
+[12:00:36]  ===============================
+[12:00:36] 
+[12:00:36]   Loaded.
+[12:00:36]  Loading plugin: streamer
+[12:00:36] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:00:36]   Loaded.
+[12:00:36]  Loaded 2 plugins.
+
+[12:00:36] I couldn't load any gamemode scripts. Please verify your server.cfg
+[12:00:36] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:00:43] filterscripts = ""  (string)
+[12:00:43] 
+[12:00:43] Server Plugins
+[12:00:43] --------------
+[12:00:43]  Loading plugin: sscanf
+[12:00:43] 
+[12:00:43]  ===============================
+[12:00:43] 
+[12:00:43]       sscanf plugin loaded.     
+[12:00:43] 
+[12:00:43]          Version: 2.13.8
+[12:00:43] 
+[12:00:43]    (c) 2022 Alex "Y_Less" Cole  
+[12:00:43] 
+[12:00:43]  ===============================
+[12:00:43] 
+[12:00:43]   Loaded.
+[12:00:43]  Loading plugin: streamer
+[12:00:43] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:00:43]   Loaded.
+[12:00:43]  Loaded 2 plugins.
+
+[12:00:43] I couldn't load any gamemode scripts. Please verify your server.cfg
+[12:00:43] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:00:50] filterscripts = ""  (string)
+[12:00:50] 
+[12:00:50] Server Plugins
+[12:00:50] --------------
+[12:00:50]  Loading plugin: sscanf
+[12:00:50] 
+[12:00:50]  ===============================
+[12:00:50] 
+[12:00:50]       sscanf plugin loaded.     
+[12:00:50] 
+[12:00:50]          Version: 2.13.8
+[12:00:50] 
+[12:00:50]    (c) 2022 Alex "Y_Less" Cole  
+[12:00:50] 
+[12:00:50]  ===============================
+[12:00:50] 
+[12:00:50]   Loaded.
+[12:00:50]  Loading plugin: streamer
+[12:00:50] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:00:50]   Loaded.
+[12:00:50]  Loaded 2 plugins.
+
+[12:00:50] I couldn't load any gamemode scripts. Please verify your server.cfg
+[12:00:50] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:01:08] filterscripts = ""  (string)
+[12:01:08] 
+[12:01:08] Server Plugins
+[12:01:08] --------------
+[12:01:08]  Loading plugin: sscanf
+[12:01:08] 
+[12:01:08]  ===============================
+[12:01:08] 
+[12:01:08]       sscanf plugin loaded.     
+[12:01:08] 
+[12:01:08]          Version: 2.13.8
+[12:01:08] 
+[12:01:08]    (c) 2022 Alex "Y_Less" Cole  
+[12:01:08] 
+[12:01:08]  ===============================
+[12:01:08] 
+[12:01:08]   Loaded.
+[12:01:08]  Loading plugin: streamer
+[12:01:08] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:01:08]   Loaded.
+[12:01:08]  Loaded 2 plugins.
+
+[12:01:08] 
+[12:01:08] Filterscripts
+[12:01:08] ---------------
+[12:01:08]   Loaded 0 filterscripts.
+
+[12:01:08] 
+----------------------------------
+[12:01:08] TELA DE LOGIN CARREGADA COM SUCESSO!
+[12:01:08] ----------------------------------
+
+[12:01:08] Number of vehicle models: 1
+[12:01:40] [connection] incoming connection: 127.0.0.1:50801 id: 0
+[12:01:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[12:02:01] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[12:02:01] [part] Poli_Rafax has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:03:39] filterscripts = ""  (string)
+[12:03:39] 
+[12:03:39] Server Plugins
+[12:03:39] --------------
+[12:03:39]  Loading plugin: sscanf
+[12:03:39] 
+[12:03:39]  ===============================
+[12:03:39] 
+[12:03:39]       sscanf plugin loaded.     
+[12:03:39] 
+[12:03:39]          Version: 2.13.8
+[12:03:39] 
+[12:03:39]    (c) 2022 Alex "Y_Less" Cole  
+[12:03:39] 
+[12:03:39]  ===============================
+[12:03:39] 
+[12:03:39]   Loaded.
+[12:03:39]  Loading plugin: streamer
+[12:03:39] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:03:39]   Loaded.
+[12:03:39]  Loaded 2 plugins.
+
+[12:03:39] 
+[12:03:39] Filterscripts
+[12:03:39] ---------------
+[12:03:39]   Loaded 0 filterscripts.
+
+[12:03:39] 
+----------------------------------
+[12:03:39] TELA DE LOGIN CARREGADA COM SUCESSO!
+[12:03:39] ----------------------------------
+
+[12:03:39] Number of vehicle models: 1
+[12:04:09] [connection] incoming connection: 127.0.0.1:62548 id: 0
+[12:04:09] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[12:04:23] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[12:04:33] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[12:04:33] [part] Poli_Rafax has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:05:30] filterscripts = ""  (string)
+[12:05:30] 
+[12:05:30] Server Plugins
+[12:05:30] --------------
+[12:05:30]  Loading plugin: sscanf
+[12:05:30] 
+[12:05:30]  ===============================
+[12:05:30] 
+[12:05:30]       sscanf plugin loaded.     
+[12:05:30] 
+[12:05:30]          Version: 2.13.8
+[12:05:30] 
+[12:05:30]    (c) 2022 Alex "Y_Less" Cole  
+[12:05:30] 
+[12:05:30]  ===============================
+[12:05:30] 
+[12:05:30]   Loaded.
+[12:05:30]  Loading plugin: streamer
+[12:05:30] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:05:30]   Loaded.
+[12:05:30]  Loaded 2 plugins.
+
+[12:05:30] 
+[12:05:30] Filterscripts
+[12:05:30] ---------------
+[12:05:30]   Loaded 0 filterscripts.
+
+[12:05:30] 
+----------------------------------
+[12:05:30] TELA DE LOGIN CARREGADA COM SUCESSO!
+[12:05:30] ----------------------------------
+
+[12:05:30] Number of vehicle models: 1
+[12:06:19] [connection] incoming connection: 127.0.0.1:61133 id: 0
+[12:06:19] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[12:06:33] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[12:06:33] [part] Poli_Rafax has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[12:08:05] filterscripts = ""  (string)
+[12:08:05] 
+[12:08:05] Server Plugins
+[12:08:05] --------------
+[12:08:05]  Loading plugin: sscanf
+[12:08:05] 
+[12:08:05]  ===============================
+[12:08:05] 
+[12:08:05]       sscanf plugin loaded.     
+[12:08:05] 
+[12:08:05]          Version: 2.13.8
+[12:08:05] 
+[12:08:05]    (c) 2022 Alex "Y_Less" Cole  
+[12:08:05] 
+[12:08:05]  ===============================
+[12:08:05] 
+[12:08:05]   Loaded.
+[12:08:05]  Loading plugin: streamer
+[12:08:05] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[12:08:05]   Loaded.
+[12:08:05]  Loaded 2 plugins.
+
+[12:08:05] 
+[12:08:05] Filterscripts
+[12:08:05] ---------------
+[12:08:05]   Loaded 0 filterscripts.
+
+[12:08:05] 
+----------------------------------
+[12:08:05] TELA DE LOGIN CARREGADA COM SUCESSO!
+[12:08:05] ----------------------------------
+
+[12:08:05] Number of vehicle models: 1
+[12:08:39] [connection] incoming connection: 127.0.0.1:60777 id: 0
+[12:08:40] [join] Poli_Rafax has joined the server (0:127.0.0.1)
+[12:08:51] sscanf warning (`(null)`): "Include / plugin mismatch, please recompile your script for the latest features."
+[12:08:51] [part] Poli_Rafax has left the server (0:2)
