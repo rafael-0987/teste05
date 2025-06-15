@@ -5,42 +5,6 @@
 #include <core>
 #include <float>
 
-native strcpy(dest[], size, const src[]);
-
-#define MAX_CASAS 10
-
-//VARIAVEIS
-new logado[MAX_PLAYERS];
-
-//======= ARMAS CONF. ======
-new pecas_arma [MAX_PLAYERS];
-
-//==== index 0 deseart, 1 ak, 2 sub-metralhadora ======
-new save_armas [MAX_PLAYERS][13];
-new save_muni [MAX_PLAYERS][13];
-
-//======= emprego do player =======
-//- valor 1 e hacker, 2 e fazendeiro, 3 e mecanico
-new emprego[MAX_PLAYERS];
-//-- se for 1 ele ja tem um veiculo criado
-new veiculoemprego[MAX_PLAYERS] = 0;
-
-//======= staff nivel 1 helper, 2 adm, 3 superiores, 4 master, 5 supervisor, 6 gerente, 7 diretor, 8 fundador, 9 ceo ========
-new staff[MAX_PLAYERS];
-
-enum pInfo{
-	Dinheiro
-}
-new Pdados[MAX_PLAYERS][pInfo];
-
-//DEFINES
-#define varGet(%0)      getproperty(0,%0)
-#define varSet(%0,%1)   setproperty(0, %0, %1)
-#define new_strcmp(%0,%1) \
-                (varSet(%0, 1), varGet(%1) == varSet(%0, 0))
-
-#define DIALOG_SENHA 0
-#define DIALOG_REGISTRO 1
 
 //CORES
 #define COL_BOX 0x000000EE
@@ -104,6 +68,67 @@ new Pdados[MAX_PLAYERS][pInfo];
 #define COLOR_REDD 0xFF0000AA
 #define BRANCO 0xFFFFFFAA
 
+
+native strcpy(dest[], size, const src[]);
+
+#define MAX_CASAS 10
+
+//VARIAVEIS
+new PlayerText:text_logo[MAX_PLAYERS][6];
+new logado[MAX_PLAYERS];
+
+//======= ARMAS CONF. ======
+new pecas_arma [MAX_PLAYERS];
+
+//==== index 0 deseart, 1 ak, 2 sub-metralhadora ======
+new save_armas [MAX_PLAYERS][13];
+new save_muni [MAX_PLAYERS][13];
+
+//======= emprego do player =======
+//- valor 1 e hacker, 2 e fazendeiro, 3 e mecanico
+new emprego[MAX_PLAYERS];
+//-- se for 1 ele ja tem um veiculo criado
+new veiculoemprego[MAX_PLAYERS] = 0;
+
+//======= staff nivel 1 helper, 2 adm, 3 superiores, 4 master, 5 supervisor, 6 gerente, 7 diretor, 8 fundador, 9 ceo ========
+new staff[MAX_PLAYERS];
+
+//========= se o player e policial se for vai ser 1============
+new policial[MAX_PLAYERS] = 1;
+new nivel_procurado[MAX_PLAYERS] = 0;
+new cela_aberta = false;
+new cela2_aberta = false;
+new cela1_prisao;
+new cela1_2_prisao;
+new cela2_prisao;
+new cela2_2_prisao;
+
+//=========== mapeação =========
+new map_spawn[46];
+
+//====== detran se o player esta fazendo alguma prova====
+//--index 0 carro, 1 moto, 2 caminhão
+new licencas[MAX_PLAYERS][3];
+new prova_licenca = 0;
+
+
+//===== destruir o carro =======
+new carro_destruir = 0;
+
+enum pInfo{
+	Dinheiro
+}
+new Pdados[MAX_PLAYERS][pInfo];
+
+//DEFINES
+#define varGet(%0)      getproperty(0,%0)
+#define varSet(%0,%1)   setproperty(0, %0, %1)
+#define new_strcmp(%0,%1) \
+                (varSet(%0, 1), varGet(%1) == varSet(%0, 0))
+
+#define DIALOG_SENHA 0
+#define DIALOG_REGISTRO 1
+
 main()
 {
 	print("\n----------------------------------");
@@ -125,8 +150,7 @@ public OnGameModeInit()
 	create_pickups();
 	create_lebal();
 
-	//========LOGO DO SERVER========
-
+	
 
 	return 1;
 }
@@ -161,6 +185,11 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
+	//========LOGO DO SERVER========
+	CriarLogoEldorado(playerid);
+	obj();
+	clt_mec(playerid);
+
 	return 1;
 }
 
@@ -189,14 +218,79 @@ public OnPlayerText(playerid, text[])
 {
 	if(logado[playerid] == 0)
 	{
-	    SendClientMessage(playerid, COR_VERMELHO, "[ERRO]Voce nao pode falar no chat agora!");
-	    return 0;
+		SendClientMessage(playerid, COR_VERMELHO, "[ERRO]Voce nao pode falar no chat agora!");
 	}
 	return 0;
 }
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
+	//======== info licenças detran ==========
+	if (dialogid == 250)
+	{
+		if(response)
+		{
+			//--carro
+			if(listitem == 0)
+			{
+				if(licencas[playerid][0] == 0)
+				{
+					SetPlayerInterior(playerid,0);
+					SetPlayerPos(playerid, 1924.2418,720.1313,10.8203);
+					carro_destruir = CreateVehicle(589, 1924.1528,716.9359,10.8203,96.7309, 4, 4, 0);
+					
+					SendClientMessage(playerid, COR_AZULVERDE, "  |PEGA O VEICULO E SEGUA OS CHECK POINT");
+					SendClientMessage(playerid, COR_AZULVERDE, "  |VOCE TEM 3m PARA FAZER A PROVA!!!");
+					SetPlayerCheckpoint(playerid, 1878.0602,703.3523,10.4214, 10.0);
+					GivePlayerMoney(playerid, -1500);
+					prova_licenca = 1;
+					SetTimerEx("timer_licenca", 180000, false, "1", playerid);
+					return 1;
+				}
+				SendClientMessage(playerid, COR_AMARELO, " |VOCE JA TEM ESSA LICENCA!!");
+				
+			}
+			//--moto
+			if(listitem == 1)
+			{
+				if(licencas[playerid][1] == 0)
+				{
+					SetPlayerInterior(playerid,0);
+					SetPlayerPos(playerid, 1924.2418,720.1313,10.8203);
+					carro_destruir = CreateVehicle(461, 1924.1528,716.9359,10.8203,96.7309, 4, 4, 0);
+					
+					SendClientMessage(playerid, COR_AZULVERDE, "  |PEGA O VEICULO E SEGUA OS CHECK POINT");
+					SendClientMessage(playerid, COR_AZULVERDE, "  |VOCE TEM 3m PARA FAZER A PROVA!!!");
+					SetPlayerCheckpoint(playerid, 1878.0602,703.3523,10.4214, 10.0);
+					GivePlayerMoney(playerid, -1500);
+					prova_licenca = 1;
+					SetTimerEx("timer_licenca", 180000, false, "1", playerid);
+					return 1;
+				}
+				SendClientMessage(playerid, COR_AMARELO, " |VOCE JA TEM ESSA LICENCA!!");
+			}
+			//--caminhao
+			if(listitem == 2)
+			{
+				if(licencas[playerid][2] == 0)
+				{
+					SetPlayerInterior(playerid, 0);
+					SetPlayerPos(playerid, 1924.2418,720.1313,10.8203);
+					carro_destruir = CreateVehicle(514, 1924.1528,716.9359,10.8203,96.7309, 4, 4, 0);
+					
+					SendClientMessage(playerid, COR_AZULVERDE, "  |PEGA O VEICULO E SEGUA OS CHECK POINT");
+					SendClientMessage(playerid, COR_AZULVERDE, "  |VOCE TEM 3m PARA FAZER A PROVA!!!");
+					SetPlayerCheckpoint(playerid, 1878.0602,703.3523,10.4214, 10.0);
+					GivePlayerMoney(playerid, -3500);
+					prova_licenca = 1;
+					SetTimerEx("timer_licenca", 180000, false, "1", playerid);
+					return 1;
+				}
+				SendClientMessage(playerid, COR_AMARELO, " |VOCE JA TEM ESSA LICENCA!!");
+			}
+		}
+	}
+
 	//=======GPS========
 	if (dialogid == 776)
 	{
@@ -204,7 +298,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		{
 			//===== los santos =========
 			if(listitem == 0){
-				ShowPlayerDialog(playerid, 777, DIALOG_STYLE_LIST, "LOS SANTOS","EMPREGO\n PREFEITURA\n", "IR", "SAIR");
+				ShowPlayerDialog(playerid, 777, DIALOG_STYLE_LIST, "LOS SANTOS","Empregos\nPrefeitura\nPenitenciaria", "IR", "SAIR");
 			}
 			//===== san fierro =========
 			if(listitem == 1){
@@ -213,6 +307,26 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			//===== las ventura =========
 			if(listitem == 2){
 				ShowPlayerDialog(playerid, 779, DIALOG_STYLE_LIST, "LOS SANTOS", "", "IR", "SAIR");
+			}
+			//=====locais ilegis=======
+			if (listitem == 3)
+			{
+				ShowPlayerDialog(playerid, 7777, DIALOG_STYLE_LIST, "LOCAIS ILEGAIS", "Fabricar armas\nMercado Negro", "IR", "SAIR");
+			}
+		}
+	}
+	//--locais ilegal/fabrica de arma e mercado negro
+	if (dialogid == 7777)
+	{
+		if (response)
+		{
+			if (listitem == 0)
+			{
+				SetPlayerCheckpoint(playerid, 2121.4824,-2274.1904,20.6719, 3.0);
+			}
+			if (listitem == 1)
+			{
+				SetPlayerCheckpoint(playerid, 2331.1633,44.6231,32.9884, 3.0);
 			}
 		}
 	}
@@ -224,11 +338,16 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 			//--espregos
 			if (listitem == 0)
 			{
-				ShowPlayerDialog(playerid, 7771, DIALOG_STYLE_LIST, "EMPREGOS", "HACKER\n FAZENDEIRO\n MECANICO", "IR", "SAIR");
+				ShowPlayerDialog(playerid, 7771, DIALOG_STYLE_LIST, "EMPREGOS", "Hacker\nFazendeiro\n Mecanico", "IR", "SAIR");
 			}
 			if (listitem == 1)
 			{
 				SetPlayerCheckpoint(playerid, 1481.0450,-1771.6492,18.7958, 2.0);
+			}
+			//--penitenciaria
+			if (listitem == 2)
+			{
+				SetPlayerCheckpoint(playerid, 1555.2206,-1675.5248,16.1953, 2.0);
 			}
 		}
 	}
@@ -329,6 +448,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		}
 	}
 
+	//============tela de login=============
 
     if(dialogid == DIALOG_REGISTRO)
 	{
@@ -410,6 +530,121 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 
 public OnPlayerEnterCheckpoint(playerid)
 {
+	//======== sistema de tirar habilitação ========
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 1878.0602,703.3523,10.4214))
+	{
+		SetPlayerCheckpoint(playerid, 1870.4320,768.8286,10.3301 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 1870.4320,768.8286,10.3301))
+	{
+		SetPlayerCheckpoint(playerid, 1982.9958,771.1935,10.3299, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 1982.9958,771.1935,10.3299))
+	{
+		SetPlayerCheckpoint(playerid,2143.3005,753.2479,10.5073 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2143.3005,753.2479,10.5073))
+	{
+		SetPlayerCheckpoint(playerid, 2147.5435,971.4962,10.5198, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2147.5435,971.4962,10.5198))
+	{
+		SetPlayerCheckpoint(playerid, 2070.6824,974.0267,10.0879, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2070.6824,974.0267,10.0879))
+	{
+		SetPlayerCheckpoint(playerid, 2068.9585,1369.1177,10.3319, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2068.9585,1369.1177,10.3319 ))
+	{
+		SetPlayerCheckpoint(playerid, 2225.7043,1371.8855,10.5059, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2225.7043,1371.8855,10.5059))
+	{
+		SetPlayerCheckpoint(playerid, 2226.8958,1200.0815,10.4399, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2226.8958,1200.0815,10.4399))
+	{
+		SetPlayerCheckpoint(playerid,2048.5071,1190.2308,10.3300 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2048.5071,1190.2308,10.3300))
+	{
+		SetPlayerCheckpoint(playerid,2048.9407,834.0981,6.3968 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0,2048.9407,834.0981,6.3968 ))
+	{
+		SetPlayerCheckpoint(playerid,2177.1599,815.9423,6.3630 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2177.1599,815.9423,6.3630))
+	{
+		SetPlayerCheckpoint(playerid,2278.6060,764.4591,10.3897 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2278.6060,764.4591,10.3897))
+	{
+		SetPlayerCheckpoint(playerid, 2286.1572,636.2357,10.6514, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 2286.1572,636.2357,10.6514))
+	{
+		SetPlayerCheckpoint(playerid, 2144.4758,669.3519,10.4503, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0,2144.4758,669.3519,10.4503 ))
+	{
+		SetPlayerCheckpoint(playerid,1997.3311,673.6219,10.3580 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0,1997.3311,673.6219,10.3580 ))
+	{
+		SetPlayerCheckpoint(playerid,1979.0760,702.0841,10.3852 , 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 1979.0760,702.0841,10.3852))
+	{
+		SetPlayerCheckpoint(playerid, 1919.7979,708.2623,10.4782, 10.0);
+		return 1;
+	}
+	if (IsPlayerInRangeOfPoint(playerid, 10.0, 1919.7979,708.2623,10.4782))
+	{
+		new idcar = GetPlayerVehicleID(playerid);
+		new idmodelo = GetVehicleModel(idcar);
+
+		if (idmodelo == 589)//carro
+		{
+			licencas[playerid][0] = 1;
+			
+		}
+		if (idmodelo == 461)//moto
+		{
+			licencas[playerid][1] = 1;
+			
+		}
+		if (idmodelo == 514)//caminhao
+		{
+			licencas[playerid][2] = 1;
+			
+		}
+		SendClientMessage(playerid, COR_VERDE, "  |PARABENS VOCE PASSOU NO TESTE!!");
+		DestroyVehicle(carro_destruir);
+		prova_licenca = 0;
+		DisablePlayerCheckpoint(playerid);
+		return 1;
+	}
+
+	//============== FIM HABILITAÇÂO =========
+
 	//============verifica se o player esta pegando os chechepoint do emprego fazendeiro==============
 	if (IsPlayerInRangeOfPoint(playerid, 10.0, -323.5716,-1432.6079,15.2656))
 	{
@@ -434,6 +669,109 @@ public OnPlayerEnterCheckpoint(playerid)
 
 public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 {
+	//========== sistema de entrar nodetran ====
+	if (newkeys & KEY_SECONDARY_ATTACK)
+	{
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, 1922.5728,742.6204,10.8203))
+		{
+			SetPlayerInterior(playerid, 3);
+			SetPlayerPos(playerid, -2031.11,-115.82,1035.17);
+		}
+	}
+	if (newkeys & KEY_SECONDARY_ATTACK)
+	{
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, -2029.5670,-119.5585,1035.1719))
+		{
+			SetPlayerInterior(playerid, 0);
+			SetPlayerPos(playerid, 1922.5728,742.6204,10.8203);
+		}
+	}
+	if (newkeys & KEY_SECONDARY_ATTACK)
+	{
+		if (prova_licenca == 1 && IsPlayerInRangeOfPoint(playerid, 2.0, -2033.4343,-117.4267,1035.1719)) 
+		{
+			SendClientMessage(playerid, COR_VERMELHO, "  |VOCE JA TEM UM VEICULO CRIADO!!!");
+			return 1;
+		}
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, -2033.4343,-117.4267,1035.1719))
+		{
+			ShowPlayerDialog(playerid, 250, DIALOG_STYLE_LIST, "LICENÇAS", "CARRO  [R$ 1.500]\nMOTO  [R$ 1.500]\nCAMINHAO  [R$ 3.500]", "FAZER TESTE", "SAIR");
+			return 1;
+		}
+	}
+	//============ FIM DETRAN ==========
+
+	//========== sistema de abrir e fechar sela==========
+	if (newkeys & KEY_SECONDARY_ATTACK)
+	{
+		//--cela 1
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, 320.7723,311.5896,999.1484) && policial[playerid] == 1 && cela_aberta == false)
+		{
+			MoveObject(cela1_prisao, 320.7723,311.5896,990.1484, 10.0);
+			MoveObject(cela1_2_prisao, 320.7723,311.5896,990.1484, 10.0);
+			cela_aberta = true;
+
+			SendClientMessage(playerid, COR_VERDE, " |VOCE ESTA ABRINDO A CELA!");
+			return 1;
+		}
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, 320.7723,311.5896,999.1484) && policial[playerid] == 1 && cela_aberta == true)
+		{
+			MoveObject(cela1_prisao, 320.7723,311.5896,999.1484, 10.0);
+			MoveObject(cela1_2_prisao, 320.7173,312.9832,999.1484, 10.0);
+			cela_aberta = false;
+
+			SendClientMessage(playerid, COR_VERDE, " |VOCE ESTA FECHANDO A CELA!");
+			return 1;
+		}
+		//--cela 2
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, 321.1540,316.4138,999.1484) && policial[playerid] == 1 && cela2_aberta == false)
+		{
+			MoveObject(cela2_prisao, 320.7173,312.9832,990.1484, 10.0);
+			MoveObject(cela2_2_prisao, 320.6675,317.1631,990.1484, 10.0);
+			cela2_aberta = true;
+
+			SendClientMessage(playerid, COR_VERDE, " |VOCE ESTA ABRINDO A CELA!");
+			return 1;
+		}
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, 321.1540,316.4138,999.1484) && policial[playerid] == 1 && cela2_aberta == true)
+		{
+			MoveObject(cela2_prisao, 320.7824,315.5038,999.1484, 10.0);
+			MoveObject(cela2_2_prisao, 320.6675,317.1631,999.1484, 10.0);
+			cela2_aberta = false;
+
+			SendClientMessage(playerid, COR_VERDE, " |VOCE ESTA FECHANDO A CELA!");
+			return 1;
+		}
+
+
+		if (IsPlayerInRangeOfPoint(playerid, 2.0, 320.7723,311.5896,999.1484))
+		{
+			SendClientMessage(playerid, COR_VERMELHO, " |VOCE NAO TEM PERMISSAO PARA ABRIR A CELA!");
+		}
+	}
+	//=== fim prisao ====
+
+
+	//==========sistema da penitenciaria ============
+	if (newkeys & KEY_SECONDARY_ATTACK)
+	{
+		if (IsPlayerInRangeOfPoint(playerid, 3.0, 1555.2206,-1675.5248,16.1953))
+		{
+			SetPlayerInterior(playerid,5);
+			SetPlayerPos(playerid, 322.50,303.69,999.14);
+			
+		}
+	}
+	if (newkeys & KEY_SECONDARY_ATTACK)
+	{
+		if (IsPlayerInRangeOfPoint(playerid, 3.0, 322.2418,302.9979,999.1484))
+		{
+			SetPlayerInterior(playerid, 0);
+			SetPlayerPos(playerid, 1555.2206,-1675.5248,16.1953);
+		}
+	}
+
+
 	//========= sistema de spawn carro do emprego do fazendeiro==========
 	if (newkeys & KEY_SECONDARY_ATTACK)
 	{
@@ -579,6 +917,11 @@ stock CarregarDados(playerid)
 		//==========cargo staff========
 		staff[playerid] = DOF2_GetInt(Arquivo, "cargo_staff");
 
+		//===== licenças ====
+		licencas[playerid][0] = DOF2_GetInt(Arquivo,"licenca_carro");
+		licencas[playerid][1] = DOF2_GetInt(Arquivo,"licenca_moto");
+		licencas[playerid][2] = DOF2_GetInt(Arquivo,"licenca_caminhao");
+
 		//=======carregar as minução e as armas===========
 		new str[60];
 		for (new i = 0; i< 13; i++)
@@ -605,6 +948,11 @@ stock SalvarDados(playerid)
 	//==== cargo staff ========
 	DOF2_SetInt(Arquivo, "cargo_staff", staff[playerid]);
 
+	//==== licenças ======
+	DOF2_SetInt(Arquivo, "licenca_carro", licencas[playerid][0]);
+	DOF2_SetInt(Arquivo, "licenca_moto", licencas[playerid][1]);
+	DOF2_SetInt(Arquivo, "licenca_caminhao", licencas[playerid][2]);
+
 
 	//=======sistema para salvar as armas e munição e peças de arma=======
 	new str[100];
@@ -625,8 +973,18 @@ stock SalvarDados(playerid)
 
 public OnPlayerSpawn(playerid)
 {
+	//========mostrar os text draw ========
+	for(new i = 0; i < 6; i++)
+	{
+		PlayerTextDrawShow(playerid, text_logo[playerid][i]);
+	}
+	
+
+
 	SetPlayerVirtualWorld(playerid, 0);
-	SetPlayerPos(playerid,1685.6267,-2239.1313,13.5469);
+	SetPlayerPos(playerid,1682.9510,-2299.3079,13.5466);
+
+	return 1;
 }
 
 
@@ -634,13 +992,18 @@ public OnPlayerSpawn(playerid)
 
 forward create_npc();
 public create_npc() {
+	
 	CreateActor(33, 2331.1633,44.6231,32.9884,52.7999); //mercado negro
-	CreateActor(215,-2789.2720,-52.5813,10.0625,91.5399); //menu armas
+	CreateActor(215,2121.4824,-2274.1904,20.6719,221.9421); //menu armas
 }
 
 forward create_pickups();
 public create_pickups()
 {
+	//=====entrada detran=====
+	CreatePickup(1318, 1,  1922.5728,742.6204,10.8203, 0);
+	CreatePickup(1318, 1,  -2029.5670,-119.5585,1035.1719, 0);
+	CreatePickup(1239, 1,  -2033.4343,-117.4267,1035.1719, 0);
 	//=====entrada prefeitura=====
 	CreatePickup(1318, 1, 1481.0450,-1771.6492,18.7958, 0);
 	//=====saida prefeitura=====
@@ -658,7 +1021,10 @@ public create_pickups()
 	//=======emprego mecanico======
 	CreatePickup(1581, 1, 2820.6228,-1447.4827,16.2568, 0);
 
-
+	//=======penitenciaria ======
+	CreatePickup(1247, 1, 1555.2206,-1675.5248,16.1953, 0);
+	//--saida
+	CreatePickup(1247, 1,322.2418,302.9979,999.1484, 0);
 
 
 	//======lugares para os hacker hackear=====
@@ -675,6 +1041,23 @@ public create_pickups()
 forward create_lebal();
 public create_lebal()
 {
+	//====== garagem ===========
+	Create3DTextLabel("GARAGEM\n [F] para pegar o carro", COR_BRANCO, 1560.3824,-2221.8804,13.5469, 10.0, 0, 0);
+	//======== detran ==========
+	Create3DTextLabel("DETRAN\n [F] para entrar", COR_BRANCO, 1922.5728,742.6204,10.8203, 10.0, 0, 0);
+	Create3DTextLabel("DETRAN\n [F] para sair", COR_BRANCO, -2029.5670,-119.5585,1035.1719, 10.0, 0, 0);
+	Create3DTextLabel("LICENCAS\n [F] para acessar", COR_BRANCO, -2033.4343,-117.4267,1035.1719, 10.0, 0, 0);
+
+	//=======penitenciaria ======
+	Create3DTextLabel("PENITENCIARIA\n [F] para entrar", COR_BRANCO, 1555.2206,-1675.5248,16.1953, 10.0, 0, 0);
+	Create3DTextLabel("PENITENCIARIA\n [F] para sair", COR_BRANCO, 322.2418,302.9979,999.1484, 10.0, 0, 0);
+	Create3DTextLabel("PENITENCIARIA\n [F] para abrir/fechar", COR_BRANCO, 320.7723,311.5896,999.1484, 10.0, 0, 0);
+	Create3DTextLabel("PENITENCIARIA\n [F] para abrir/fechar", COR_BRANCO, 320.7824,315.5038,999.1484, 10.0, 0, 0);
+
+	//====maleta prefeitura==
+	Create3DTextLabel("EMPREGOS\n aperte [F]", COR_BRANCO, 361.8299,173.5468,1008.3828, 10.0, 0, 0);
+
+
 	//====emprego hacker=====
 	Create3DTextLabel("EMPREGO HACKER\n [F] para entrar", COR_BRANCO, 1422.0435,-1487.2633,20.4325, 10.0, 0, 0);
 	//====emprego fazendeiro=====
@@ -696,7 +1079,68 @@ public create_lebal()
 
 	return 1;
 }
+stock CriarLogoEldorado(playerid)
+{
+    text_logo[playerid][0] = CreatePlayerTextDraw(playerid, 300.000000, 24.000000, "box");
+    PlayerTextDrawLetterSize(playerid, text_logo[playerid][0], 0.000000, -0.866666);
+    PlayerTextDrawTextSize(playerid, text_logo[playerid][0], 365.000000, 0.000000);
+    PlayerTextDrawAlignment(playerid, text_logo[playerid][0], 1);
+    PlayerTextDrawColor(playerid, text_logo[playerid][0], -1);
+    PlayerTextDrawUseBox(playerid, text_logo[playerid][0], 1);
+    PlayerTextDrawBoxColor(playerid, text_logo[playerid][0], 791621476);
+    PlayerTextDrawSetShadow(playerid, text_logo[playerid][0], 0);
+    PlayerTextDrawBackgroundColor(playerid, text_logo[playerid][0], 255);
+    PlayerTextDrawFont(playerid, text_logo[playerid][0], 2);
+    PlayerTextDrawSetProportional(playerid, text_logo[playerid][0], 0);
 
+    text_logo[playerid][1] = CreatePlayerTextDraw(playerid, 275.000000, 7.000000, "LD_BEAT:chit");
+    PlayerTextDrawTextSize(playerid, text_logo[playerid][1], 24.000000, 33.000000);
+    PlayerTextDrawAlignment(playerid, text_logo[playerid][1], 1);
+    PlayerTextDrawColor(playerid, text_logo[playerid][1], -1);
+    PlayerTextDrawSetShadow(playerid, text_logo[playerid][1], 0);
+    PlayerTextDrawBackgroundColor(playerid, text_logo[playerid][1], 255);
+    PlayerTextDrawFont(playerid, text_logo[playerid][1], 4);
+    PlayerTextDrawSetProportional(playerid, text_logo[playerid][1], 0);
+
+    text_logo[playerid][2] = CreatePlayerTextDraw(playerid, 301.000000, 6.000000, "eldorado");
+    PlayerTextDrawLetterSize(playerid, text_logo[playerid][2], 0.400000, 1.600000);
+    PlayerTextDrawAlignment(playerid, text_logo[playerid][2], 1);
+    PlayerTextDrawColor(playerid, text_logo[playerid][2], -65281);
+    PlayerTextDrawSetShadow(playerid, text_logo[playerid][2], 0);
+    PlayerTextDrawBackgroundColor(playerid, text_logo[playerid][2], 255);
+    PlayerTextDrawFont(playerid, text_logo[playerid][2], 1);
+    PlayerTextDrawSetProportional(playerid, text_logo[playerid][2], 1);
+
+    text_logo[playerid][3] = CreatePlayerTextDraw(playerid, 283.000000, 15.000000, "N");
+    PlayerTextDrawLetterSize(playerid, text_logo[playerid][3], 0.400000, 1.600000);
+    PlayerTextDrawAlignment(playerid, text_logo[playerid][3], 1);
+    PlayerTextDrawColor(playerid, text_logo[playerid][3], -65281);
+    PlayerTextDrawSetShadow(playerid, text_logo[playerid][3], -1);
+    PlayerTextDrawBackgroundColor(playerid, text_logo[playerid][3], 255);
+    PlayerTextDrawFont(playerid, text_logo[playerid][3], 1);
+    PlayerTextDrawSetProportional(playerid, text_logo[playerid][3], 1);
+
+    text_logo[playerid][4] = CreatePlayerTextDraw(playerid, 298.000000, 20.000000, "ROLEPLAY");
+    PlayerTextDrawLetterSize(playerid, text_logo[playerid][4], 0.236000, 1.093924);
+    PlayerTextDrawAlignment(playerid, text_logo[playerid][4], 1);
+    PlayerTextDrawColor(playerid, text_logo[playerid][4], -1);
+    PlayerTextDrawSetShadow(playerid, text_logo[playerid][4], 0);
+    PlayerTextDrawBackgroundColor(playerid, text_logo[playerid][4], 255);
+    PlayerTextDrawFont(playerid, text_logo[playerid][4], 1);
+    PlayerTextDrawSetProportional(playerid, text_logo[playerid][4], 1);
+
+    text_logo[playerid][5] = CreatePlayerTextDraw(playerid, 322.000000, -10.000000, "");
+    PlayerTextDrawTextSize(playerid, text_logo[playerid][5], 48.000000, 72.000000);
+    PlayerTextDrawAlignment(playerid, text_logo[playerid][5], 1);
+    PlayerTextDrawColor(playerid, text_logo[playerid][5], -1);
+    PlayerTextDrawSetShadow(playerid, text_logo[playerid][5], 0);
+    PlayerTextDrawBackgroundColor(playerid, text_logo[playerid][5], 791621376);
+    PlayerTextDrawFont(playerid, text_logo[playerid][5], 5);
+    PlayerTextDrawSetProportional(playerid, text_logo[playerid][5], 0);
+    PlayerTextDrawSetPreviewModel(playerid, text_logo[playerid][5], 519);
+    PlayerTextDrawSetPreviewRot(playerid, text_logo[playerid][5], 15.000000, 0.000000, 60.000000, 1.000000);
+    PlayerTextDrawSetPreviewVehCol(playerid, text_logo[playerid][5], 2, 1);
+}
 stock LoadCasa()
 {
 	new file [150];
@@ -740,7 +1184,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 
 	if (strcmp(cmdtext, "/menuarmas", true) == 0)
     {
-		if (IsPlayerInRangeOfPoint(playerid, 3.0, -2789.6240,-52.5912,10.0625))
+		if (IsPlayerInRangeOfPoint(playerid, 3.0, 2121.4824,-2274.1904,20.6719))
 		{
 			ShowPlayerDialog(playerid, 100, DIALOG_STYLE_LIST, "Menu Armas", "Deseart Agle\t\t [20 pecas]\n Ak-47\t\t\t [50 pecas]\n Sub-Metralhadora\t\t [35 pecas]", "Montar", "sair");
         	return 1;
@@ -809,7 +1253,7 @@ public OnPlayerCommandText(playerid, cmdtext[])
 
 	if (strcmp(cmdtext, "/gps", true) == 0)
 	{
-		ShowPlayerDialog(playerid, 776, DIALOG_STYLE_LIST, "GPS", "LOS SANTOS\n SAN FIERRO\n LAS VENTURA","MARCAR", "SAIR");
+		ShowPlayerDialog(playerid, 776, DIALOG_STYLE_LIST, "GPS", "LOS SANTOS\nSAN FIERRO\nLAS VENTURA\nLOCAIS ILEGAL","IR", "SAIR");
 		return 1;
 	}
 
@@ -854,6 +1298,20 @@ public OnPlayerCommandText(playerid, cmdtext[])
         Kick(id);
         return 1;
     }
+	if (strcmp(cmdtext, "/veridcar", true) == 0)
+	{
+		if(staff[playerid] > 0)
+		{
+			new idcar = GetPlayerVehicleID(playerid);
+			new idmodelo = GetVehicleModel(idcar);
+			new mgs[60];
+			format(mgs, sizeof(mgs), "O ID DESSE CARRO E: %d", idmodelo);
+			SendClientMessage(playerid, COR_ROXO, mgs);
+			return 1;
+		}
+		SendClientMessage(playerid, COR_VERMELHO, " |VOCE NAO E UM ADM");
+		return 1;
+	}
 
     return 0;
 }
@@ -925,7 +1383,7 @@ CMD:hackear (playerid)
 
 CMD:gps (playerid)
 {
-	ShowPlayerDialog(playerid, 776, DIALOG_STYLE_LIST, "GPS", "LOS SANTOS\n SAN FIERRO\n LAS VENTURA","MARCAR", "SAIR");
+	ShowPlayerDialog(playerid, 776, DIALOG_STYLE_LIST, "GPS", "LOS SANTOS\nSAN FIERRO\nLAS VENTURA\nLOCAIS ILEGAL","MARCAR", "SAIR");
 	return 1;
 }
 
@@ -942,12 +1400,12 @@ CMD:mercadonegro (playerid)
 
 CMD:menuarmas (playerid)
 {
-	if (IsPlayerInRangeOfPoint(playerid, 3.0, -2789.6240,-52.5912,10.0625))
+	if (IsPlayerInRangeOfPoint(playerid, 3.0, 2121.4824,-2274.1904,20.6719))
 	{
 		ShowPlayerDialog(playerid, 100, DIALOG_STYLE_LIST, "Menu Armas", "Deseart Agle\t\t [20 pecas]\n Ak-47\t\t\t [50 pecas]\n Sub-Metralhadora\t\t [35 pecas]", "Montar", "sair");
         return 1;
 	}
-    SendClientMessage(playerid, COR_BEJE, "VOCE NAO ESTA NO LOCAL CERTO, PROCURA EM SF PERTO DA PRAIA!!!");
+    SendClientMessage(playerid, COR_BEJE, "VOCE NAO ESTA NO LOCAL CERTO, USE /GPS!!!");
 	return 1;
 }
 
@@ -986,6 +1444,23 @@ CMD:criarcasa (playerid, params[])
 
 //============ COMANDOS STTAF ========================
 //staff nivel 1 helper, 2 adm, 3 superiores, 4 master, 5 supervisor, 6 gerente, 7 diretor, 8 fundador, 9 ceo ========
+
+CMD:veridcar(playerid)
+{
+	if(staff[playerid] > 0)
+	{
+		new idcar = GetPlayerVehicleID(playerid);
+		new idmodelo = GetVehicleModel(idcar);
+		new mgs[60];
+		format(mgs, sizeof(mgs), "O ID DESSE CARRO E %d", idmodelo);
+		SendClientMessage(playerid, COR_ROXO, mgs);
+		return 1;
+	}
+	SendClientMessage(playerid, COR_VERMELHO, " |VOCE NAO E UM ADM");
+	return 1;
+}
+
+
 CMD:ls(playerid)
 {
 	if (staff[playerid] > 0)
@@ -1071,4 +1546,85 @@ public clt_hacker(playerid)
 	GivePlayerMoney(playerid, 50);
 	SendClientMessage(playerid, COR_VERDE, "50R$");
 	TogglePlayerControllable(playerid, 1);
+}
+//--emprego de mecanico
+forward clt_mec(playerid);
+public clt_mec(playerid)
+{
+	return 1;
+}
+forward timer_licenca(playerid);
+public timer_licenca(playerid)
+{
+	if (prova_licenca == 1)
+	{
+		DestroyVehicle(carro_destruir);
+		SendClientMessage(playerid, COR_VERMELHO, "  |VOCE REPROVOU NA PROVA!!!");
+		DisablePlayerCheckpoint(playerid);
+		SetPlayerPos(playerid, 1924.2418,720.1313,10.8203);
+		prova_licenca = 0 ;
+	}
+	
+	return 1;
+}
+
+forward obj();
+public obj()
+{
+	cela1_prisao = CreateObject(19303, 320.7723,311.5896,999.1484, 0.0, 0.0, 90.0);
+	cela1_2_prisao = CreateObject(19303, 320.7173,312.9832,999.1484, 0.0, 0.0, 90.0);
+	cela2_prisao = CreateObject(19303, 320.7824,315.5038,999.1484, 0.0, 0.0, 90.0);
+	cela2_2_prisao = CreateObject(19303, 320.6675,317.1631,999.1484, 0.0, 0.0, 90.0);
+
+	map_spawn[0] = CreateObject(1223, 1677.3580, -2264.3569, 12.6146, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[1] = CreateObject(1223, 1677.3580, -2269.0913, 12.6146, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[2] = CreateObject(1223, 1677.3580, -2273.2849, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[3] = CreateObject(1223, 1677.3580, -2277.6391, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[4] = CreateObject(1223, 1677.3580, -2281.9716, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[5] = CreateObject(1223, 1677.3580, -2286.8359, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[6] = CreateObject(1223, 1677.3580, -2292.7407, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[7] = CreateObject(1223, 1677.3580, -2299.3852, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[8] = CreateObject(1223, 1677.3580, -2306.1196, 12.5046, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[9] = CreateObject(1223, 1688.1802, -2306.1196, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[10] = CreateObject(1223, 1688.2955, -2298.7946, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[11] = CreateObject(1223, 1688.2294, -2292.7976, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[12] = CreateObject(1223, 1688.1350, -2286.7395, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[13] = CreateObject(1223, 1688.2320, -2281.8459, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[14] = CreateObject(1223, 1687.8737, -2277.8435, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[15] = CreateObject(1223, 1687.9720, -2273.5424, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[16] = CreateObject(1223, 1688.0447, -2268.9995, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[17] = CreateObject(1223, 1688.1202, -2264.1086, 12.5046, 0.0000, 0.0000, 179.0998); //lampost_coast
+	map_spawn[18] = CreateObject(1223, 1677.3580, -2264.3569, 12.6146, 0.0000, 0.0000, 0.0000); //lampost_coast
+	map_spawn[19] = CreateObject(11327, 1682.4967, -2324.8283, 20.3160, 0.0000, 0.0000, -88.9999); //sfse_hub_grgdoor02
+	SetObjectMaterialText(map_spawn[19], "ELDORADO", 0, 90, "Arial", 50, 1, 0xFF000000, 0xFFD78E10, 1);
+	map_spawn[20] = CreateObject(2773, 1687.2620, -2263.6005, 13.0542, 0.0000, 0.0000, 90.7001); //CJ_AIRPRT_BAR
+	map_spawn[21] = CreateObject(2773, 1686.2794, -2264.5241, 13.0542, 0.0000, 0.0000, 177.8002); //CJ_AIRPRT_BAR
+	map_spawn[22] = CreateObject(2773, 1679.2871, -2264.6586, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[23] = CreateObject(19741, 1682.7305, -2266.5698, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[24] = CreateObject(19741, 1682.7304, -2272.7548, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[25] = CreateObject(19741, 1682.7404, -2278.9992, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[26] = CreateObject(19741, 1682.7406, -2285.1330, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[27] = CreateObject(19741, 1682.7504, -2291.2255, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[28] = CreateObject(19741, 1682.7502, -2297.4291, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[29] = CreateObject(19741, 1682.7504, -2303.5339, 12.4841, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[30] = CreateObject(19741, 1682.7506, -2307.4890, 12.5141, 0.0000, 0.0000, 0.0000); //STubeFlat6_25m1
+	map_spawn[31] = CreateObject(2773, 1679.2871, -2268.9812, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[32] = CreateObject(2773, 1679.2871, -2273.3342, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[33] = CreateObject(2773, 1679.2871, -2277.7277, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[34] = CreateObject(2773, 1679.2871, -2281.9814, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[35] = CreateObject(2773, 1679.2871, -2286.8859, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[36] = CreateObject(2773, 1679.2871, -2292.9011, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[37] = CreateObject(2773, 1679.2871, -2306.1125, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[38] = CreateObject(2773, 1679.2871, -2299.3464, 13.0542, 0.0000, 0.0000, 0.0000); //CJ_AIRPRT_BAR
+	map_spawn[39] = CreateObject(2773, 1686.1092, -2268.9726, 13.0542, 0.0000, 0.0000, 177.8002); //CJ_AIRPRT_BAR
+	map_spawn[40] = CreateObject(2773, 1686.1645, -2273.5927, 13.0542, 0.0000, 0.0000, 177.8002); //CJ_AIRPRT_BAR
+	map_spawn[41] = CreateObject(2773, 1686.1826, -2281.8273, 13.0542, 0.0000, 0.0000, -179.4996); //CJ_AIRPRT_BAR
+	map_spawn[42] = CreateObject(2773, 1686.2242, -2286.6601, 13.0542, 0.0000, 0.0000, -179.4996); //CJ_AIRPRT_BAR
+	map_spawn[43] = CreateObject(2773, 1686.2775, -2292.7746, 13.0542, 0.0000, 0.0000, -179.4996); //CJ_AIRPRT_BAR
+	map_spawn[44] = CreateObject(2773, 1686.3300, -2298.8085, 13.0542, 0.0000, 0.0000, -179.4996); //CJ_AIRPRT_BAR
+	map_spawn[45] = CreateObject(2773, 1686.3937, -2306.0834, 13.0542, 0.0000, 0.0000, -179.4996); //CJ_AIRPRT_BAR
+
+
+	
+	return 1;
 }
