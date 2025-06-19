@@ -1,0 +1,69 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC9C Module: (samp-server.exe)
+
+Registers:
+EAX: 0x4F567C20	EBX: 0x05EDC273	ECX: 0x7FFFFFFE	EDX: 0x0019EEFE
+ESI: 0x0019EB50	EDI: 0x0019F329	EBP: 0x0019EB9C	ESP: 0x0019EB10
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019F2E8   0x0019EEE8   0x05EDC220   0x20656475
++0010: 0x6C70202F   0x02000002   0x73696D20   0x00000007
++0020: 0x00000000   0x7361656C   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x20747069
++0040: 0x00000017   0x00000000   0x4F567C20   0xFFFFFFFF
++0050: 0x00000000   0xFFFFFFFC   0x065961B0   0x004554AD
++0060: 0x00000015   0xFFFFFC11   0x004B4E08   0x0100E6D0
++0070: 0x0055524E   0x00000800   0x00000000   0x0019EB91
++0080: 0xC85D1401   0x1F403500   0x0000E4FF   0x6CEE0500
++0090: 0x00000006   0x00550294   0x06560000   0x8C0D0E84
++00A0: 0x4BAE2C2F   0x00000080   0x0000001D   0x005500C0
++00B0: 0x00550294   0x000001DB   0x00000200   0x00000000
++00C0: 0x00000000   0x0293CD98   0x00000017   0x00000128
++00D0: 0x00000248   0x00000006   0x00000006   0x0000001D
++00E0: 0x00000000   0x06000006   0x0055D250   0x000000B8
++00F0: 0x02930006   0x00000000   0x00000004   0x00550000
++0100: 0x00000002   0x00000001   0x01040100   0x00000006
++0110: 0x065961A8   0x023F5628   0x00000006   0x065961A8
++0120: 0x065961B0   0x00000000   0x005859F0   0x0293DDA0
++0130: 0x00000018   0x00000000   0x779AF7D5   0x00010048
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\pc\Documents\server gta\new_eldorado_rp\samp-server.exe)
+ntdll.dll	A: 0x77960000 - 0x77B03000	(C:\Windows\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x75830000 - 0x75920000	(C:\Windows\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x76830000 - 0x76A44000	(C:\Windows\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x77390000 - 0x77943000	(C:\Windows\System32\SHELL32.dll)
+msvcp_win.dll	A: 0x77200000 - 0x7727B000	(C:\Windows\System32\msvcp_win.dll)
+ucrtbase.dll	A: 0x76B40000 - 0x76C60000	(C:\Windows\System32\ucrtbase.dll)
+USER32.dll	A: 0x76D10000 - 0x76EA6000	(C:\Windows\System32\USER32.dll)
+win32u.dll	A: 0x75E50000 - 0x75E68000	(C:\Windows\System32\win32u.dll)
+GDI32.dll	A: 0x77280000 - 0x772A3000	(C:\Windows\System32\GDI32.dll)
+gdi32full.dll	A: 0x75AE0000 - 0x75BBA000	(C:\Windows\System32\gdi32full.dll)
+WSOCK32.dll	A: 0x705B0000 - 0x705B8000	(C:\Windows\SYSTEM32\WSOCK32.dll)
+msvcrt.dll	A: 0x75ED0000 - 0x75F8F000	(C:\Windows\System32\msvcrt.dll)
+WS2_32.dll	A: 0x76320000 - 0x76383000	(C:\Windows\System32\WS2_32.dll)
+RPCRT4.dll	A: 0x75C10000 - 0x75CD0000	(C:\Windows\System32\RPCRT4.dll)
+WINMM.dll	A: 0x72760000 - 0x72788000	(C:\Windows\SYSTEM32\WINMM.dll)
+IMM32.DLL	A: 0x75920000 - 0x75945000	(C:\Windows\System32\IMM32.DLL)
+sscanf.DLL	A: 0x70390000 - 0x703BA000	(C:\Users\pc\Documents\server gta\new_eldorado_rp\plugins\sscanf.DLL)
+VCRUNTIME140.dll	A: 0x70C00000 - 0x70C15000	(C:\Windows\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x70C20000 - 0x70C8D000	(C:\Windows\SYSTEM32\MSVCP140.dll)
+streamer.DLL	A: 0x6FEE0000 - 0x6FF46000	(C:\Users\pc\Documents\server gta\new_eldorado_rp\plugins\streamer.DLL)
+mswsock.dll	A: 0x72850000 - 0x728A2000	(C:\Windows\system32\mswsock.dll)
+napinsp.dll	A: 0x6DD70000 - 0x6DD81000	(C:\Windows\system32\napinsp.dll)
+sechost.dll	A: 0x76F40000 - 0x76FB6000	(C:\Windows\System32\sechost.dll)
+pnrpnsp.dll	A: 0x6D470000 - 0x6D486000	(C:\Windows\system32\pnrpnsp.dll)
+wshbth.dll	A: 0x6F7F0000 - 0x6F800000	(C:\Windows\system32\wshbth.dll)
+NLAapi.dll	A: 0x6CE90000 - 0x6CEA6000	(C:\Windows\system32\NLAapi.dll)
+IPHLPAPI.DLL	A: 0x73760000 - 0x73792000	(C:\Windows\SYSTEM32\IPHLPAPI.DLL)
+DNSAPI.dll	A: 0x71580000 - 0x71612000	(C:\Windows\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x77160000 - 0x77167000	(C:\Windows\System32\NSI.dll)
+winrnr.dll	A: 0x6E3B0000 - 0x6E3BE000	(C:\Windows\System32\winrnr.dll)
+bcrypt.dll	A: 0x75AC0000 - 0x75AD9000	(C:\Windows\System32\bcrypt.dll)
+rasadhlp.dll	A: 0x71570000 - 0x71578000	(C:\Windows\System32\rasadhlp.dll)

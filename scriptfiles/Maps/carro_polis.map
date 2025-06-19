@@ -1,0 +1,59 @@
+new carro_poli_map[28];
+new carro_poli_veiculo[1];
+carro_poli_map[0] = CreateObject(1447, 828.1455, -2045.7020, 11.8671, 0.0000, 0.0000, 0.0000); //DYN_MESH_4
+carro_poli_map[1] = CreateObject(1447, 828.1455, -2045.7020, 11.8671, 0.0000, 0.0000, 0.0000); //DYN_MESH_4
+carro_poli_map[2] = CreateObject(1447, 828.1455, -2045.7020, 11.8671, 0.0000, 0.0000, 0.0000); //DYN_MESH_4
+carro_poli_map[3] = CreateObject(1447, 828.1455, -2045.7020, 11.8671, 0.0000, 0.0000, 0.0000); //DYN_MESH_4
+carro_poli_map[4] = CreateObject(1411, 836.8659, -2039.8143, 12.2510, 0.0000, 0.0000, 0.0000); //DYN_MESH_1
+carro_poli_map[5] = CreateObject(1411, 836.8659, -2039.8143, 12.2510, 0.0000, 0.0000, 0.0000); //DYN_MESH_1
+carro_poli_map[6] = CreateObject(1411, 836.8659, -2039.8143, 12.2510, 0.0000, 0.0000, 0.0000); //DYN_MESH_1
+carro_poli_map[7] = CreateObject(1411, 836.8659, -2039.8143, 12.2510, 0.0000, 0.0000, 0.0000); //DYN_MESH_1
+carro_poli_map[8] = CreateObject(3475, 827.8796, -2047.0432, 12.1427, 0.0000, 0.0000, -32.0000); //vgsn_fncelec_pst
+carro_poli_map[9] = CreateObject(3475, 827.8796, -2047.0432, 12.1427, 0.0000, 0.0000, -32.0000); //vgsn_fncelec_pst
+carro_poli_map[10] = CreateObject(3475, 827.8796, -2047.0432, 12.1427, 0.0000, 0.0000, -32.0000); //vgsn_fncelec_pst
+carro_poli_map[11] = CreateObject(3092, 834.5933, -2031.3021, 11.7628, 0.0000, 0.0000, 0.0000); //dead_tied_cop
+carro_poli_map[12] = CreateObject(362, 832.5905, -2031.5570, 12.3937, 0.0000, 0.0000, 0.0000); //minigun
+carro_poli_map[13] = CreateObject(355, 833.0140, -2031.8284, 10.4129, 0.0000, 0.0000, 0.0000); //ak47
+carro_poli_map[14] = CreateObject(2905, 833.7327, -2032.9068, 12.7667, 0.0000, 0.0000, 0.0000); //kmb_deadleg
+carro_poli_map[15] = CreateObject(2908, 832.0805, -2030.3797, 12.3941, 0.0000, 0.0000, 0.0000); //kmb_deadhead
+carro_poli_map[16] = CreateObject(2908, 832.0805, -2030.3797, 12.3941, 0.0000, 0.0000, 0.0000); //kmb_deadhead
+carro_poli_map[17] = CreateObject(2905, 833.7327, -2032.9068, 12.7667, 0.0000, 0.0000, 0.0000); //kmb_deadleg
+carro_poli_map[18] = CreateObject(2905, 833.7327, -2032.9068, 12.7667, 0.0000, 0.0000, 0.0000); //kmb_deadleg
+carro_poli_map[19] = CreateObject(2907, 831.4205, -2032.5407, 12.3732, 0.0000, 0.0000, 0.0000); //kmb_deadtorso
+carro_poli_map[20] = CreateObject(2907, 831.4205, -2032.5407, 12.3732, 0.0000, 0.0000, 0.0000); //kmb_deadtorso
+carro_poli_map[21] = CreateObject(2907, 831.4205, -2032.5407, 12.3732, 0.0000, 0.0000, 0.0000); //kmb_deadtorso
+carro_poli_map[22] = CreateObject(2036, 834.4906, -2033.5343, 12.0086, 0.0000, 0.0000, 0.0000); //CJ_psg1
+carro_poli_map[23] = CreateObject(371, 832.1422, -2032.8459, 11.9623, 0.0000, 0.0000, 0.0000); //gun_para
+carro_poli_map[24] = CreateObject(360, 831.2772, -2033.4294, 12.2006, 0.0000, 0.0000, 0.0000); //heatseek
+carro_poli_map[25] = CreateObject(355, 833.0140, -2031.8284, 10.4129, 0.0000, 0.0000, 0.0000); //ak47
+carro_poli_map[26] = CreateObject(1238, 835.8474, -2027.0920, 10.8846, 0.0000, 0.0000, 0.0000); //trafficcone
+carro_poli_map[27] = CreateObject(1238, 835.8474, -2027.0920, 10.8846, 0.0000, 0.0000, 0.0000); //trafficcone
+carro_poli_veiculo[0] = CreateVehicle(431, 833.7493, -2033.8403, 12.9775, 347.6410, 248, 33, -1); //Bus
+AttachObjectToVehicle(carro_poli_map[0], carro_poli_veiculo[0], -1.4199, -3.0499, 0.4399, 0.0000, 0.0000, 88.8999);
+AttachObjectToVehicle(carro_poli_map[1], carro_poli_veiculo[0], -1.4199, 1.8799, 0.4399, 0.0000, 0.0000, 88.8999);
+AttachObjectToVehicle(carro_poli_map[2], carro_poli_veiculo[0], 1.4000, 1.8799, 0.4399, 0.0000, 0.0000, 271.4999);
+AttachObjectToVehicle(carro_poli_map[3], carro_poli_veiculo[0], 1.4000, -2.9700, 0.4399, 0.0000, 0.0000, 271.4999);
+AttachObjectToVehicle(carro_poli_map[4], carro_poli_veiculo[0], 1.2699, -2.7399, 1.1799, 348.7999, 0.0000, 270.1999);
+AttachObjectToVehicle(carro_poli_map[5], carro_poli_veiculo[0], 1.2699, 1.8700, 1.1799, 348.7999, 0.0000, 270.1999);
+AttachObjectToVehicle(carro_poli_map[6], carro_poli_veiculo[0], -1.2200, 1.8400, 1.1799, 348.7999, 0.0000, 89.7999);
+AttachObjectToVehicle(carro_poli_map[7], carro_poli_veiculo[0], -1.2200, -2.6199, 1.1799, 348.7999, 0.0000, 89.7999);
+AttachObjectToVehicle(carro_poli_map[8], carro_poli_veiculo[0], -0.5699, -4.2900, 0.0000, 0.0000, 0.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[9], carro_poli_veiculo[0], 0.2199, -4.2900, 0.0000, 0.0000, 0.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[10], carro_poli_veiculo[0], 1.0099, -4.2900, 0.0000, 0.0000, 0.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[11], carro_poli_veiculo[0], 0.0000, 6.0999, 0.2300, 0.0000, 0.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[12], carro_poli_veiculo[0], 0.0000, 5.1399, 2.3699, 0.0000, 21.9000, 94.5999);
+AttachObjectToVehicle(carro_poli_map[13], carro_poli_veiculo[0], 1.4700, 0.0000, 0.0000, 0.0000, 0.0000, 275.7999);
+AttachObjectToVehicle(carro_poli_map[14], carro_poli_veiculo[0], -1.4800, 2.4199, 0.6499, 313.6000, 87.8999, 0.0000);
+AttachObjectToVehicle(carro_poli_map[15], carro_poli_veiculo[0], -0.0200, -7.2499, 0.5199, 231.4999, 284.1000, 2.2000);
+AttachObjectToVehicle(carro_poli_map[16], carro_poli_veiculo[0], 0.7599, -7.2299, 1.5099, 231.4999, 284.1000, 2.2000);
+AttachObjectToVehicle(carro_poli_map[17], carro_poli_veiculo[0], -1.4800, -3.9400, 0.6499, 71.0999, 87.8999, 0.0000);
+AttachObjectToVehicle(carro_poli_map[18], carro_poli_veiculo[0], -1.4800, 3.3799, 1.0999, 39.5999, 87.8999, 0.0000);
+AttachObjectToVehicle(carro_poli_map[19], carro_poli_veiculo[0], -1.6700, 0.0000, 0.0000, 9.5000, 279.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[20], carro_poli_veiculo[0], -0.0400, -6.9400, -0.5199, 336.6000, 279.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[21], carro_poli_veiculo[0], -1.6700, -2.4599, 1.0499, 87.4999, 279.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[22], carro_poli_veiculo[0], 1.5199, 0.0000, 0.7399, 19.3000, 98.9999, 0.0000);
+AttachObjectToVehicle(carro_poli_map[23], carro_poli_veiculo[0], 1.5599, 1.1299, 0.6999, 0.0000, 0.0000, 90.2999);
+AttachObjectToVehicle(carro_poli_map[24], carro_poli_veiculo[0], 1.6100, -1.9999, 0.6199, 3.5999, 5.6000, 84.6999);
+AttachObjectToVehicle(carro_poli_map[25], carro_poli_veiculo[0], 1.4700, 3.2099, 0.3599, 0.0000, 331.5000, 275.7999);
+AttachObjectToVehicle(carro_poli_map[26], carro_poli_veiculo[0], -0.9099, 6.1899, 0.0000, 271.7999, 357.0000, 0.0000);
+AttachObjectToVehicle(carro_poli_map[27], carro_poli_veiculo[0], 0.9000, 6.2299, -0.0099, 271.7999, 356.2999, 0.0000);

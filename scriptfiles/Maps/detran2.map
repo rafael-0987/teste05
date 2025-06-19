@@ -1,0 +1,22 @@
+new detran_map[20];
+detran_map[0] = CreateObject(19353, 1878.5273, 714.6995, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[1] = CreateObject(1237, 1875.7113, 697.4777, 9.8041, 0.0000, 0.0000, 0.0000); //strtbarrier01
+detran_map[2] = CreateObject(3749, 1879.7246, 703.3566, 15.5682, 0.0000, 0.0000, 90.9998); //ClubGate01_LAx
+detran_map[3] = CreateObject(3749, 1972.3315, 702.7019, 15.5682, 0.0000, 0.0000, 90.9998); //ClubGate01_LAx
+detran_map[4] = CreateObject(1238, 1867.3944, 708.9077, 10.0531, 0.0000, 0.0000, 0.0000); //trafficcone
+detran_map[5] = CreateObject(1238, 1867.4244, 702.7343, 10.1431, 0.0000, 0.0000, 0.0000); //trafficcone
+detran_map[6] = CreateObject(1238, 1867.4244, 697.2534, 10.1431, 0.0000, 0.0000, 0.0000); //trafficcone
+detran_map[7] = CreateObject(19353, 1878.5273, 717.8707, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[8] = CreateObject(19353, 1878.5273, 721.0717, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[9] = CreateObject(19353, 1878.5273, 723.6420, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[10] = CreateObject(19353, 1878.5273, 691.9901, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[11] = CreateObject(19353, 1878.5273, 688.7886, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[12] = CreateObject(19353, 1878.5273, 685.5875, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[13] = CreateObject(19353, 1878.5273, 683.8167, 11.5375, 0.0000, 0.0000, 0.0000); //wall001
+detran_map[14] = CreateObject(19958, 1872.9365, 710.7886, 9.6112, 0.0000, 0.0000, 178.6999); //SAMPRoadSign11
+detran_map[15] = CreateObject(1237, 1875.7113, 709.0471, 9.8041, 0.0000, 0.0000, 0.0000); //strtbarrier01
+detran_map[16] = CreateObject(19425, 1870.1690, 711.9414, 9.7081, 0.0000, 0.0000, 0.0000); //speed_bump01
+detran_map[17] = CreateObject(19425, 1870.1690, 706.0184, 9.7581, 0.0000, 0.0000, 0.0000); //speed_bump01
+detran_map[18] = CreateObject(19425, 1870.1690, 701.5063, 9.8181, 0.0000, 0.0000, 0.0000); //speed_bump01
+detran_map[19] = CreateObject(19425, 1870.1690, 697.8933, 9.7481, 0.0000, 0.0000, 0.0000); //speed_bump01
+
